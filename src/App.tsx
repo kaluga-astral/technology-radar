@@ -1,16 +1,14 @@
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { Box, Button } from '@mui/material';
+import { Box, Typography } from '@mui/material';
 import { useState } from 'react';
 
-import { Main } from './components';
 import { getDataConfig } from './utils/getDataConfig';
-import { Header } from './pages/Header';
-import { SideBarLeft } from './pages/SideBarLeft';
+import { Header, Main, SideBarLeft } from './components/';
 
 function App() {
   const [isDrawerShow, setIsDrawerShow] = useState(false);
-  const data = getDataConfig();
+  const configData = getDataConfig();
   const handleDrawerClose = (): void => {
     setIsDrawerShow(false);
   };
@@ -24,26 +22,24 @@ function App() {
         <Header open={isDrawerShow} onClick={handleDrawerOpen} />
         <SideBarLeft
           isDrawerShow={isDrawerShow}
-          handleDrawer={handleDrawerClose}
-          listItems={data}
+          onClickDrawer={handleDrawerClose}
+          listItems={configData}
         ></SideBarLeft>
         <Main open={isDrawerShow}>
           <Routes>
             <Route
               path="/"
-              element={<Button variant="contained">Home</Button>}
+              key={'route-home'}
+              element={<Typography>Home</Typography>}
             />
-            {data.map(({ rootApp, sidebarItem }) => (
+            {configData.map(([productRoot, { productName, productId }]) => (
               <Route
-                key={'route-' + rootApp}
-                path={`/${rootApp}`}
-                element={<Button variant="contained">{sidebarItem}</Button>}
+                key={`route-${productId}`}
+                path={`/${productRoot}`}
+                element={<Typography>{productName}</Typography>}
               />
             ))}
-            <Route
-              path="/*"
-              element={<Button variant="contained">Не найдено</Button>}
-            />
+            <Route path="/*" element={<Typography>Не найдено</Typography>} />
           </Routes>
         </Main>
       </Box>

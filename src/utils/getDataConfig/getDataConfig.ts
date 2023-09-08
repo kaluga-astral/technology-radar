@@ -1,9 +1,4 @@
 import * as CONFIG from '../../config';
+import { AllConfigsDataType } from '../../config/types';
 
-import { DataType } from './types';
-
-export const getDataConfig = (): DataType[] => {
-  return Object.values(CONFIG).map(({ rootApp, sidebarItem }) => {
-    return { rootApp, sidebarItem };
-  });
-};
+export const getDataConfig = (): AllConfigsDataType => Object.entries(CONFIG);

@@ -1,3 +1,3 @@
-export * as edo from './edo';
+export * from './edo';
 
-export * as lkp from './lkp';
+export * from './lkp';

@@ -1,6 +1,6 @@
 import { styled } from '@mui/material';
 
-import { drawerWidth } from '../../constants';
+import { drawerWidth } from '../constants';
 
 export const Main = styled('main', {
   shouldForwardProp: (prop) => prop !== 'open',
@@ -9,6 +9,8 @@ export const Main = styled('main', {
 }>(({ theme, open }) => ({
   flexGrow: 1,
   padding: theme.spacing(3),
+  marginTop: theme.spacing(3),
+
   transition: theme.transitions.create('margin', {
     easing: theme.transitions.easing.sharp,
     duration: theme.transitions.duration.leavingScreen,

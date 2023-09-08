@@ -1,1 +1,1 @@
-export * from './getDataConfig.ts';
+export * from './getDataConfig';
