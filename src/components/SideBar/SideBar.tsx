@@ -1,14 +1,42 @@
-import { Drawer, styled } from '@mui/material';
+import { Divider, IconButton, MenuList } from '@mui/material';
+import { Link } from 'react-router-dom';
 
-import { drawerWidth } from '../constants';
+import { ChevronLeft, DrawerHeader, MenuItem } from '../index';
+import { AllConfigsData } from '../../config';
 
-export const SideBar = styled(Drawer)`
-  box-sizing: border-box;
-  width: ${drawerWidth}px;
-  flex-shrink: 0;
+import { SideBarStyled } from './styles';
 
-  & > .MuiDrawer-paper {
-    width: ${drawerWidth}px;
-    box-sizing: border-box;
-  }
-`;
+type Props = {
+  isDrawerShow: boolean;
+  onClickDrawer: () => void;
+  products: AllConfigsData;
+};
+
+export const SideBar = ({ isDrawerShow, onClickDrawer, products }: Props) => {
+  return (
+    <SideBarStyled variant="persistent" anchor="left" open={isDrawerShow}>
+      <DrawerHeader>
+        <IconButton
+          color="inherit"
+          aria-label="open drawer"
+          onClick={onClickDrawer}
+          edge="start"
+        >
+          <ChevronLeft />
+        </IconButton>
+      </DrawerHeader>
+      <Divider />
+
+      <MenuList>
+        <Link to="/" key="link-home">
+          <MenuItem>Home</MenuItem>
+        </Link>
+        {products.map(([productRoot, { productName, productId }]) => (
+          <Link to={`/${productRoot}`} key={`link-${productId}`}>
+            <MenuItem key={`list-${productId}`}>{productName}</MenuItem>
+          </Link>
+        ))}
+      </MenuList>
+    </SideBarStyled>
+  );
+};

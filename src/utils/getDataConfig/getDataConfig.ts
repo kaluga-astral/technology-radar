@@ -1,4 +1,4 @@
 import * as CONFIG from '../../config';
-import { AllConfigsDataType } from '../../config/types';
+import { AllConfigsData } from '../../config';
 
-export const getDataConfig = (): AllConfigsDataType => Object.entries(CONFIG);
+export const getDataConfig = (): AllConfigsData => Object.entries(CONFIG);

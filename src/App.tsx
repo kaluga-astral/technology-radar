@@ -4,7 +4,7 @@ import { Box, Typography } from '@mui/material';
 import { useState } from 'react';
 
 import { getDataConfig } from './utils/getDataConfig';
-import { Header, Main, SideBarLeft } from './components/';
+import { Header, Main, SideBar } from './components/';
 
 function App() {
   const [isDrawerShow, setIsDrawerShow] = useState(false);
@@ -20,12 +20,12 @@ function App() {
     <BrowserRouter>
       <Box>
         <Header open={isDrawerShow} onClick={handleDrawerOpen} />
-        <SideBarLeft
+        <SideBar
           isDrawerShow={isDrawerShow}
           onClickDrawer={handleDrawerClose}
-          listItems={configData}
-        ></SideBarLeft>
-        <Main open={isDrawerShow}>
+          products={configData}
+        ></SideBar>
+        <Main>
           <Routes>
             <Route
               path="/"

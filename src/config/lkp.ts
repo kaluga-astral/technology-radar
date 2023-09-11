@@ -1,8 +1,8 @@
-import { ProductConfigType } from './types';
+import { ProductConfig } from './types';
 
-export const lkp: ProductConfigType = {
+export const lkp: ProductConfig = {
   productName: 'ЛКП',
-  productId: 2,
+  productId: 'lkp',
   radarData: {
     rings: ['adopt', 'trial', 'assess', 'hold'],
     quadrants: ['tools', 'techniques', 'platforms', 'languages'],

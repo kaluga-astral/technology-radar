@@ -1,12 +1,12 @@
-export type ProductConfigType = {
+export type ProductConfig = {
   productName: string;
-  productId: number;
-  radarData: RadarDataType;
+  productId: string;
+  radarData: RadarData;
 };
 
-export type AllConfigsDataType = [string, ProductConfigType][];
+export type AllConfigsData = [string, ProductConfig][];
 
-export type RadarDataType = {
+type RadarData = {
   rings: string[];
   quadrants: string[];
   data: { name: string; quadrant: string; ring: string }[];

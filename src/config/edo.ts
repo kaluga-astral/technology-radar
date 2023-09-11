@@ -1,8 +1,8 @@
-import { ProductConfigType } from './types';
+import { ProductConfig } from './types';
 
-export const edo: ProductConfigType = {
+export const edo: ProductConfig = {
   productName: 'ЭДО',
-  productId: 1,
+  productId: 'edo',
   radarData: {
     rings: ['adopt', 'trial', 'assess', 'hold'],
     quadrants: ['tools', 'techniques', 'platforms', 'languages'],

@@ -1,11 +1,14 @@
-import { AppBar, Hamburger, Menu } from '../../components';
+import { AppBar } from '@mui/material';
+
+import { Menu } from '../index';
 
 import { Toolbar } from './Toolbar';
+import { Hamburger } from './Hamburger';
 
 type Props = { open: boolean; onClick: () => void };
 
 export const Header = ({ open, onClick }: Props) => (
-  <AppBar open={open}>
+  <AppBar>
     <Toolbar>
       <Hamburger
         color="primary"
