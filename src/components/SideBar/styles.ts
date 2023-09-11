@@ -2,7 +2,7 @@ import { Drawer, styled } from '@mui/material';
 
 const drawerWidth = 150;
 
-export const SideBarStyled = styled(Drawer)`
+export const DrawerStyled = styled(Drawer)`
   box-sizing: border-box;
   width: ${drawerWidth}px;
   flex-shrink: 0;

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { ChevronLeft, DrawerHeader, MenuItem } from '../index';
 import { AllConfigsData } from '../../config';
 
-import { SideBarStyled } from './styles';
+import { DrawerStyled } from './styles';
 
 type Props = {
   isDrawerShow: boolean;
@@ -14,7 +14,7 @@ type Props = {
 
 export const SideBar = ({ isDrawerShow, onClickDrawer, products }: Props) => {
   return (
-    <SideBarStyled variant="persistent" anchor="left" open={isDrawerShow}>
+    <DrawerStyled variant="persistent" anchor="left" open={isDrawerShow}>
       <DrawerHeader>
         <IconButton
           color="inherit"
@@ -37,6 +37,6 @@ export const SideBar = ({ isDrawerShow, onClickDrawer, products }: Props) => {
           </Link>
         ))}
       </MenuList>
-    </SideBarStyled>
+    </DrawerStyled>
   );
 };
