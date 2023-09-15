@@ -4,7 +4,7 @@ export type ProductConfig = {
   radarData: RadarData;
 };
 
-export type AllConfigsData = [string, ProductConfig][];
+export type AllConfigsData = ProductConfig[];
 
 type RadarData = {
   rings: string[];

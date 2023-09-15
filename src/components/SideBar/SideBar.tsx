@@ -14,7 +14,7 @@ type Props = {
 
 export const SideBar = ({ isDrawerShow, onClickDrawer, products }: Props) => {
   return (
-    <DrawerStyled variant="persistent" anchor="left" open={isDrawerShow}>
+    <DrawerStyled variant="temporary" anchor="left" open={isDrawerShow}>
       <DrawerHeader>
         <IconButton
           color="inherit"
@@ -31,8 +31,8 @@ export const SideBar = ({ isDrawerShow, onClickDrawer, products }: Props) => {
         <Link to="/" key="link-home">
           <MenuItem>Home</MenuItem>
         </Link>
-        {products.map(([productRoot, { productName, productId }]) => (
-          <Link to={`/${productRoot}`} key={`link-${productId}`}>
+        {products.map(({ productName, productId }) => (
+          <Link to={`/${productId}`} key={`link-${productId}`}>
             <MenuItem key={`list-${productId}`}>{productName}</MenuItem>
           </Link>
         ))}

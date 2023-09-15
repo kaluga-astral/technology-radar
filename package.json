@@ -6,7 +6,12 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "lint": "eslint --fix --quiet",
+    "lint:types": "tsc --noEmit",
+    "lint:all": "eslint \"**/*.{ts,tsx}\" --fix --quiet",
+    "lint:styles": "stylelint --fix",
+    "lint:styles:all": "stylelint \"**/*.{ts,tsx}\" --fix",
+    "prepare": "husky install",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -29,10 +34,14 @@
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
     "@vitejs/plugin-react": "^4.0.3",
+    "commitlint": "^17.7.1",
     "eslint": "^8.45.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
     "prettier": "^2.7.1",
+    "stylelint": "^14.16.1",
     "vite": "^4.4.5",
     "yaspeller": "^8.0.1"
   }

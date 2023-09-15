@@ -32,10 +32,10 @@ function App() {
               key={'route-home'}
               element={<Typography>Home</Typography>}
             />
-            {configData.map(([productRoot, { productName, productId }]) => (
+            {configData.map(({ productName, productId }) => (
               <Route
                 key={`route-${productId}`}
-                path={`/${productRoot}`}
+                path={`/${productId}`}
                 element={<Typography>{productName}</Typography>}
               />
             ))}
