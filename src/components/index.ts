@@ -9,3 +9,5 @@ export * from './icons';
 export * from './Header';
 
 export * from './MenuItem';
+
+export * from './Radar';

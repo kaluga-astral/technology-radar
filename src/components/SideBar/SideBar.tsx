@@ -2,17 +2,16 @@ import { Divider, IconButton, MenuList } from '@mui/material';
 import { Link } from 'react-router-dom';
 
 import { ChevronLeft, DrawerHeader, MenuItem } from '../index';
-import { AllConfigsData } from '../../config';
+import { TEAMS } from '../../config';
 
 import { DrawerStyled } from './styles';
 
 type Props = {
   isDrawerShow: boolean;
   onClickDrawer: () => void;
-  products: AllConfigsData;
 };
 
-export const SideBar = ({ isDrawerShow, onClickDrawer, products }: Props) => {
+export const SideBar = ({ isDrawerShow, onClickDrawer }: Props) => {
   return (
     <DrawerStyled variant="temporary" anchor="left" open={isDrawerShow}>
       <DrawerHeader>
@@ -31,9 +30,9 @@ export const SideBar = ({ isDrawerShow, onClickDrawer, products }: Props) => {
         <Link to="/" key="link-home">
           <MenuItem>Home</MenuItem>
         </Link>
-        {products.map(({ productName, productId }) => (
-          <Link to={`/${productId}`} key={`link-${productId}`}>
-            <MenuItem key={`list-${productId}`}>{productName}</MenuItem>
+        {Object.entries(TEAMS).map(([id, { name }]) => (
+          <Link to={`/${id}`} key={id}>
+            <MenuItem>{name}</MenuItem>
           </Link>
         ))}
       </MenuList>

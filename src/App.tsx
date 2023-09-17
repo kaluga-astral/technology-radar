@@ -4,7 +4,8 @@ import { Box, Typography } from '@mui/material';
 import { useState } from 'react';
 
 import { getDataConfig } from './utils/getDataConfig';
-import { Header, Main, SideBar } from './components/';
+import { Header, Main, Radar, SideBar } from './components';
+import { TEAMS } from './config';
 
 function App() {
   const [isDrawerShow, setIsDrawerShow] = useState(false);
@@ -23,7 +24,6 @@ function App() {
         <SideBar
           isDrawerShow={isDrawerShow}
           onClickDrawer={handleDrawerClose}
-          products={configData}
         ></SideBar>
         <Main>
           <Routes>
@@ -32,12 +32,8 @@ function App() {
               key={'route-home'}
               element={<Typography>Home</Typography>}
             />
-            {configData.map(({ productName, productId }) => (
-              <Route
-                key={`route-${productId}`}
-                path={`/${productId}`}
-                element={<Typography>{productName}</Typography>}
-              />
+            {Object.entries(TEAMS).map(([id]) => (
+              <Route path={`/${id}`} element={<Radar jsonName={id} />} />
             ))}
             <Route path="/*" element={<Typography>Не найдено</Typography>} />
           </Routes>
