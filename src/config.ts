@@ -4,4 +4,5 @@ export { RENDER_RADAR_URL };
 
 export const TEAMS: Record<string, { name: string }> = {
   edo: { name: 'ЭДО' },
+  lkp: { name: 'ЛКП' },
 };

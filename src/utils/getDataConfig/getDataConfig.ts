@@ -1,4 +1,5 @@
-import * as CONFIG from '../../config';
-import { AllConfigsData } from '../../config';
+import { TEAMS } from '../../config';
 
-export const getDataConfig = (): AllConfigsData => Object.values(CONFIG);
+type DataConfig = [id: string, { name: string }][];
+
+export const getDataConfig = (): DataConfig => Object.entries(TEAMS);

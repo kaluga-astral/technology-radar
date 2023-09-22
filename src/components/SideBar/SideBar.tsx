@@ -1,41 +1,57 @@
-import { Divider, IconButton, MenuList } from '@mui/material';
-import { Link } from 'react-router-dom';
+import { Link, LinkProps, useLocation } from 'react-router-dom';
+import { DashboardLayout } from '@astral/components';
+// @ts-ignore
+import { NavMenuProps } from '@astral/components/NavMenu';
+import { forwardRef } from 'react';
 
-import { ChevronLeft, DrawerHeader, MenuItem } from '../index';
-import { TEAMS } from '../../config';
+import { CompanyOutlineMd, ProfileOutlineMd } from '../index';
+import { getDataConfig } from '../../utils';
 
-import { DrawerStyled } from './styles';
-
-type Props = {
-  isDrawerShow: boolean;
-  onClickDrawer: () => void;
+type MenuProps = {
+  items: NavMenuProps['items'];
 };
 
-export const SideBar = ({ isDrawerShow, onClickDrawer }: Props) => {
-  return (
-    <DrawerStyled variant="temporary" anchor="left" open={isDrawerShow}>
-      <DrawerHeader>
-        <IconButton
-          color="inherit"
-          aria-label="open drawer"
-          onClick={onClickDrawer}
-          edge="start"
-        >
-          <ChevronLeft />
-        </IconButton>
-      </DrawerHeader>
-      <Divider />
-
-      <MenuList>
-        <Link to="/" key="link-home">
-          <MenuItem>Home</MenuItem>
-        </Link>
-        {Object.entries(TEAMS).map(([id, { name }]) => (
-          <Link to={`/${id}`} key={id}>
-            <MenuItem>{name}</MenuItem>
+const getProductsPaths = (pathname: string) => {
+  return getDataConfig().map(([id, { name }]) => [
+    id,
+    {
+      icon: <CompanyOutlineMd />,
+      text: name,
+      active: pathname === `/${id}`,
+      component: forwardRef<HTMLAnchorElement, LinkProps>(
+        ({ children, ...props }, ref) => (
+          <Link key={id} ref={ref} {...props} to={`/${id}`}>
+            {children}
           </Link>
-        ))}
-      </MenuList>
-    </DrawerStyled>
-  );
+        ),
+      ),
+    },
+  ]);
+};
+const sideBar = (pathname: string): MenuProps => {
+  const baseRoute = [
+    'home',
+    {
+      icon: <ProfileOutlineMd />,
+      text: 'Home',
+      active: pathname === '/',
+      component: forwardRef<HTMLAnchorElement, LinkProps>(
+        ({ children, ...props }, ref) => (
+          <Link key="home" ref={ref} {...props} to="/">
+            {children}
+          </Link>
+        ),
+      ),
+    },
+  ];
+
+  return {
+    items: [baseRoute, ...getProductsPaths(pathname)],
+  };
+};
+
+export const SideBar = () => {
+  const { pathname } = useLocation();
+
+  return <DashboardLayout.Sidebar menu={sideBar(pathname)} />;
 };

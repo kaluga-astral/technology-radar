@@ -1,13 +1,9 @@
-export * from './Main';
-
 export * from './SideBar';
 
-export * from './DrawerHeader';
-
-export * from './icons';
+export * from './Main';
 
 export * from './Header';
 
-export * from './MenuItem';
+export * from './icons';
 
 export * from './Radar';

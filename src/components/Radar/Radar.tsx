@@ -1,14 +1,14 @@
 import { RENDER_RADAR_URL } from '../../config';
 
+import { RadarStyled } from './styles';
+
 type RadarProps = {
   jsonName: string;
 };
 
 export const Radar = ({ jsonName }: RadarProps) => {
   return (
-    <iframe
-      width="100%"
-      height="1300px"
+    <RadarStyled
       src={`${RENDER_RADAR_URL}/?documentId=${window.origin}/${jsonName}.json`}
     />
   );
