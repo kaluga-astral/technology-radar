@@ -8,7 +8,7 @@ export const Header = () => {
       product={{
         href: '/',
         logo: () => <LogoAstral />,
-        name: 'Tech Radar',
+        name: 'Frontend. Tech Radar',
       }}
     />
   );

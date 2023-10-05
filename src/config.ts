@@ -11,7 +11,7 @@ export { RENDER_RADAR_URL };
 
 export const TEAMS: Record<string, { name: string; icon: FunctionComponent }> =
   {
-    common: { name: 'Тех. радар компании', icon: CertOutlineMd },
+    common: { name: 'Общий по компании', icon: CertOutlineMd },
     edo: { name: 'ЭДО', icon: DocumentOutlineMd },
     lkp: { name: 'ЛКП', icon: AnalyticOutlineMd },
   };
