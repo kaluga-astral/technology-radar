@@ -10,6 +10,6 @@ export const RadarStyled = styled('iframe')`
 
 export const LegendsContainer = styled(CollapsableAlert)`
   position: fixed;
-  right: ${({ theme }) => theme.spacing(2)};
-  bottom: ${({ theme }) => theme.spacing(2)};
+  right: 8px;
+  bottom: 8px;
 `;
