@@ -1,4 +1,4 @@
-import { styled } from '@astral/components';
+import { styled } from '@astral/ui';
 
 export const RadarStyled = styled('iframe')`
   width: 100%;

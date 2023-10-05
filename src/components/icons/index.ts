@@ -1,3 +1,3 @@
 export { LogoAstral } from './LogoAstral';
 
-export { CompanyOutlineMd, ProfileOutlineMd } from '@astral/icons';
+export { CompanyOutlineMd, ProfileOutlineMd } from '@astral/ui';
