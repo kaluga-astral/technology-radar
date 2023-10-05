@@ -1,4 +1,4 @@
-import { DashboardLayout } from '@astral/components';
+import { DashboardLayout } from '@astral/ui';
 
 import { LogoAstral } from '../index';
 
