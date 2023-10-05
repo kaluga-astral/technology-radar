@@ -1,0 +1,51 @@
+{
+  "name": "technology-radar",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint --fix --quiet",
+    "lint:types": "tsc --noEmit",
+    "lint:all": "eslint \"**/*.{ts,tsx}\" --fix --quiet",
+    "lint:styles": "stylelint --fix",
+    "lint:styles:all": "stylelint \"**/*.{ts,tsx}\" --fix",
+    "prepare": "husky install",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@astral/components": "^3.20.0",
+    "@astral/icons": "^3.20.0",
+    "@astral/ui": "^3.20.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.8",
+    "@mui/material": "^5.14.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.15.0"
+  },
+  "devDependencies": {
+    "@astral/commitlint-config": "^1.6.2",
+    "@astral/eslint-config-react-ts": "^1.6.2",
+    "@astral/prettier-config": "^1.6.2",
+    "@astral/stylelint-config-styled": "^1.6.2",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@vitejs/plugin-react": "^4.0.3",
+    "commitlint": "^17.7.1",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
+    "prettier": "^2.7.1",
+    "stylelint": "^14.16.1",
+    "vite": "^4.4.5",
+    "yaspeller": "^8.0.1",
+    "typescript": "^5.2.2"
+  }
+}
