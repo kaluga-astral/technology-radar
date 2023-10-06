@@ -340,5 +340,53 @@
     "ring": "trial",
     "quadrant": "techniques",
     "description": "Единый архитектурный подход <a target=\"_blank\" href=\"https://industrious-search-cdf.notion.site/Astral-Frontend-Architecture-Guide-cbb7ccaa69384c65aec35292a5c13e2a\">Astral Architecture Guide</a>"
+  },
+  {
+    "name": "Style guide",
+    "ring": "trial",
+    "quadrant": "techniques",
+    "description": "Единый <a target=\"_blank\" href=\"https://track.astral.ru/soft/wiki/display/FG/Style+guide\">Style guide</a>"
+  },
+  {
+    "name": "Unit-тестирование",
+    "ring": "assess",
+    "quadrant": "techniques",
+    "description": "Ожидаем guide по тестированию"
+  },
+  {
+    "name": "Feature-toggle",
+    "ring": "assess",
+    "quadrant": "techniques",
+    "description": ""
+  },
+  {
+    "name": "Monorepo",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "description": ""
+  },
+  {
+    "name": "Figma",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "description": ""
+  },
+  {
+    "name": "GraphQL",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "description": "Apollo + Nestjs"
+  },
+  {
+    "name": "OpenID Connect",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "description": "Используется единая система авторизации"
+  },
+  {
+    "name": "Система менторинга",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "description": "Для каждого фронтендера есть ментор и индивидуальный план развития"
   }
 ]
