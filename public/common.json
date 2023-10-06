@@ -363,7 +363,7 @@
     "name": "Monorepo",
     "ring": "adopt",
     "quadrant": "techniques",
-    "description": ""
+    "description": "Npm workspaces || Yarn workspaces"
   },
   {
     "name": "Figma",
