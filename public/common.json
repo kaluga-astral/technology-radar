@@ -2,151 +2,313 @@
   {
     "name": "react-hook-form",
     "ring": "adopt",
-    "quadrant": "tools",
+    "quadrant": "libs",
     "description": ""
   },
   {
     "name": "react-final-form",
     "ring": "hold",
-    "quadrant": "tools",
+    "quadrant": "libs",
     "description": ""
   },
   {
     "name": "yup",
     "ring": "hold",
-    "quadrant": "tools",
+    "quadrant": "libs",
     "description": "Отказываемся в пользу @astral/validations"
   },
   {
     "name": "@astral/validations",
     "ring": "trial",
-    "quadrant": "tools",
+    "quadrant": "libs",
     "description": "Используем для валидации форм по схеме"
   },
   {
     "name": "@astral/ui",
     "ring": "adopt",
-    "quadrant": "tools",
+    "quadrant": "libs",
     "description": "<a target=\"_blank\" href=\"https://main--61baeff6f06230003a88ef8a.chromatic.com/?path=/docs/getting-started--docs\">Ui-kit</a> Астрал-Софт"
   },
   {
     "name": "@mui/material",
     "ring": "adopt",
-    "quadrant": "tools",
+    "quadrant": "libs",
     "description": "Ui-kit построен на базе mui. Пока ui-kit не покрыл все кейсы продуктов некоторые компоненты могут браться из mui"
   },
   {
     "name": "lodash-es",
     "ring": "adopt",
-    "quadrant": "tools",
+    "quadrant": "libs",
     "description": "Используем для утилит"
   },
   {
     "name": "react-use",
     "ring": "adopt",
-    "quadrant": "tools",
+    "quadrant": "libs",
     "description": "Переиспользуемые хуки"
   },
   {
     "name": "mobx",
     "ring": "adopt",
-    "quadrant": "tools",
+    "quadrant": "libs",
     "description": "Основной state manager"
   },
   {
     "name": "mobx-react-lite",
     "ring": "adopt",
-    "quadrant": "tools",
+    "quadrant": "libs",
     "description": ""
   },
   {
     "name": "reduxjs/toolkit",
     "ring": "adopt",
-    "quadrant": "tools",
+    "quadrant": "libs",
     "description": ""
   },
   {
     "name": "@astral/mobx-query",
     "ring": "adopt",
-    "quadrant": "tools",
+    "quadrant": "libs",
     "description": "Используем для работы с кэшом <a target=\"_blank\" href=\"https://www.npmjs.com/package/@astral/mobx-query\">@astral/mobx-query</a> там, где используется mobx"
   },
   {
     "name": "react-query",
     "ring": "adopt",
-    "quadrant": "tools",
+    "quadrant": "libs",
     "description":  "Используем для работы с кэшом"
   },
   {
     "name": "apollo",
     "ring": "adopt",
-    "quadrant": "tools",
+    "quadrant": "libs",
     "description": ""
   },
   {
     "name": "date-fns",
     "ring": "hold",
-    "quadrant": "tools",
+    "quadrant": "libs",
     "description": "Отказываемся в пользу dayjs"
   },
   {
     "name": "dayjs",
     "ring": "trial",
-    "quadrant": "tools",
+    "quadrant": "libs",
     "description": ""
   },
   {
     "name": "moment",
     "ring": "hold",
-    "quadrant": "tools",
+    "quadrant": "libs",
     "description": "Отказываемся в пользу dayjs"
   },
   {
     "name": "@emotion/styled",
     "ring": "adopt",
-    "quadrant": "tools",
+    "quadrant": "libs",
     "description": "Используем для стилизации компонентов, включен в <a target=\"_blank\" href=\"https://www.npmjs.com/package/@astral/ui\">@astral/ui</a>"
   },
   {
     "name": "jss",
     "ring": "hold",
-    "quadrant": "tools",
+    "quadrant": "libs",
     "description": "Отказываемся в пользу @emotion/styled"
   },
   {
     "name": "axios",
     "ring": "adopt",
-    "quadrant": "tools",
+    "quadrant": "libs",
     "description": ""
+  },
+  {
+    "name": "storybook",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": "Используем для ui-kit"
   },
   {
     "name": "@astral/features",
     "ring": "adopt",
-    "quadrant": "tools",
+    "quadrant": "libs",
     "description": "<a target=\"_blank\" href=\"https://main--61baeff6f06230003a88ef8a.chromatic.com/?path=/docs/features-cryptoproprovider--docs\">Переиспользуемые фичи</a> домена Астрала"
   },
   {
     "name": "react-router-dom",
     "ring": "adopt",
-    "quadrant": "tools",
+    "quadrant": "libs",
     "description": "Используется на проектах, где не Nextjs"
   },
   {
     "name": "react-testing-library",
     "ring": "trial",
-    "quadrant": "tools",
+    "quadrant": "libs",
     "description": "Используем для компонентного тестирования"
   },
   {
     "name": "@astral-frontend",
     "ring": "hold",
-    "quadrant": "tools",
+    "quadrant": "libs",
     "description": "Все пакеты с префиксом @astral-frontend не поддерживаются"
   },
   {
     "name": "@astral-frontend/services",
     "ring": "adopt",
-    "quadrant": "tools",
+    "quadrant": "libs",
     "description": "Пакет, содержащий сервис для работы с Астрал.Toolbox"
+  },
+  {
+    "name": "Typescript",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "description": ""
+  },
+  {
+    "name": "Javascript",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "description": ""
+  },
+  {
+    "name": "React",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "description": ""
+  },
+  {
+    "name": "Nextjs",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "description": ""
+  },
+  {
+    "name": "Nodejs",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "description": "Используем для BFF"
+  },
+  {
+    "name": "Vitest",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "description": "Тестовый фреймворк"
+  },
+  {
+    "name": "Jest",
+    "ring": "hold",
+    "quadrant": "languages & frameworks",
+    "description": "Отказываемся в пользу vitest"
+  },
+  {
+    "name": "Nestjs",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "description": "Используем для BFF"
+  },
+  {
+    "name": "Express",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "description": "Используем для BFF"
+  },
+  {
+    "name": "Svelte",
+    "ring": "hold",
+    "quadrant": "languages & frameworks",
+    "description": ""
+  },
+  {
+    "name": "Angular v1",
+    "ring": "hold",
+    "quadrant": "languages & frameworks",
+    "description": "Legacy"
+  },
+  {
+    "name": "npm",
+    "ring": "adopt",
+    "quadrant": "infrastructure",
+    "description": ""
+  },
+  {
+    "name": "yarn",
+    "ring": "adopt",
+    "quadrant": "infrastructure",
+    "description": ""
+  },
+  {
+    "name": "vite",
+    "ring": "adopt",
+    "quadrant": "infrastructure",
+    "description": ""
+  },
+  {
+    "name": "webpack",
+    "ring": "adopt",
+    "quadrant": "infrastructure",
+    "description": ""
+  },
+  {
+    "name": "sentry",
+    "ring": "adopt",
+    "quadrant": "infrastructure",
+    "description": "Используем для мониторинга ошибок"
+  },
+  {
+    "name": "eslint",
+    "ring": "adopt",
+    "quadrant": "infrastructure",
+    "description": ""
+  },
+  {
+    "name": "@astral/eslint-config-react-ts",
+    "ring": "trial",
+    "quadrant": "infrastructure",
+    "description": "Единый eslint конфиг"
+  },
+  {
+    "name": "stylelint",
+    "ring": "trial",
+    "quadrant": "infrastructure",
+    "description": ""
+  },
+  {
+    "name": "@astral/stylelint-config-styled",
+    "ring": "trial",
+    "quadrant": "infrastructure",
+    "description": "Единый stylelint конфиг"
+  },
+  {
+    "name": "yaspeller",
+    "ring": "adopt",
+    "quadrant": "infrastructure",
+    "description": ""
+  },
+  {
+    "name": "GitLab",
+    "ring": "adopt",
+    "quadrant": "infrastructure",
+    "description": ""
+  },
+  {
+    "name": "Azure DevOps",
+    "ring": "adopt",
+    "quadrant": "infrastructure",
+    "description": ""
+  },
+  {
+    "name": "husky",
+    "ring": "adopt",
+    "quadrant": "infrastructure",
+    "description": ""
+  },
+  {
+    "name": "lint-staged",
+    "ring": "adopt",
+    "quadrant": "infrastructure",
+    "description": ""
+  },
+  {
+    "name": "prettier",
+    "ring": "adopt",
+    "quadrant": "infrastructure",
+    "description": ""
   }
 ]
