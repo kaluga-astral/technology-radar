@@ -1,13 +1,14 @@
-import { DashboardLayout } from '@astral/components';
+import { DashboardLayout } from '@astral/ui';
 
-import { LogoAstral } from '../index';
+import { LogoAstral } from '../icons';
 
 export const Header = () => {
   return (
     <DashboardLayout.Header
       product={{
+        href: '/',
         logo: () => <LogoAstral />,
-        name: 'Tech Radar',
+        name: 'Frontend. Tech Radar',
       }}
     />
   );
