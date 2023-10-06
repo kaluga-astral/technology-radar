@@ -51,7 +51,7 @@
     "name": "mobx",
     "ring": "adopt",
     "quadrant": "tools",
-    "description": ""
+    "description": "Основной state manager"
   },
   {
     "name": "mobx-react-lite",
@@ -63,13 +63,13 @@
     "name": "reduxjs/toolkit",
     "ring": "adopt",
     "quadrant": "tools",
-    "description":  ""
+    "description": ""
   },
   {
     "name": "@astral/mobx-query",
     "ring": "adopt",
     "quadrant": "tools",
-    "description": "Используем для работы с кэшом <a target=\"_blank\" href=\"https://www.npmjs.com/package/@astral/mobx-query\">@astral/mobx-query</a>"
+    "description": "Используем для работы с кэшом <a target=\"_blank\" href=\"https://www.npmjs.com/package/@astral/mobx-query\">@astral/mobx-query</a> там, где используется mobx"
   },
   {
     "name": "react-query",
@@ -124,5 +124,29 @@
     "ring": "adopt",
     "quadrant": "tools",
     "description": "<a target=\"_blank\" href=\"https://main--61baeff6f06230003a88ef8a.chromatic.com/?path=/docs/features-cryptoproprovider--docs\">Переиспользуемые фичи</a> домена Астрала"
+  },
+  {
+    "name": "react-router-dom",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "description": "Используется на проектах, где не Nextjs"
+  },
+  {
+    "name": "react-testing-library",
+    "ring": "trial",
+    "quadrant": "tools",
+    "description": "Используем для компонентного тестирования"
+  },
+  {
+    "name": "@astral-frontend",
+    "ring": "hold",
+    "quadrant": "tools",
+    "description": "Все пакеты с префиксом @astral-frontend не поддерживаются"
+  },
+  {
+    "name": "@astral-frontend/services",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "description": "Пакет, содержащий сервис для работы с Астрал.Toolbox"
   }
 ]
