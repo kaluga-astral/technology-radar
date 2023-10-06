@@ -108,7 +108,7 @@ export const IntroScreen = () => {
         <ul>
           {Object.entries(TEAMS).map(([id, { name }]) => (
             <li>
-              <Link to={`/${BASE_PATH}/${id}`}>
+              <Link to={`${BASE_PATH}/${id}`}>
                 <Typography color="info">{name}</Typography>
               </Link>
             </li>
