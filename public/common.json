@@ -310,5 +310,11 @@
     "ring": "adopt",
     "quadrant": "infrastructure",
     "description": ""
+  },
+  {
+    "name": "Яндекс.Метрика",
+    "ring": "adopt",
+    "quadrant": "infrastructure",
+    "description": "Для сбора аналитики. Есть <a target=\"_blank\" href=\"https://www.npmjs.com/package/@astral/yandex-metrika\">готовый сервис</a> для работы с метрикой"
   }
 ]
