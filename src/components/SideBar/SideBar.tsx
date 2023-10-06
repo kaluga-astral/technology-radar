@@ -2,7 +2,7 @@ import { Link, LinkProps, useLocation } from 'react-router-dom';
 import { DashboardLayout, NavMenuProps } from '@astral/ui';
 import { forwardRef } from 'react';
 
-import { TEAMS } from '../../config';
+import { BASE_PATH, TEAMS } from '../../config';
 
 export const SideBar = () => {
   const { pathname } = useLocation();
@@ -14,10 +14,10 @@ export const SideBar = () => {
         {
           icon: <Icon />,
           text: name,
-          active: pathname === `/${id}`,
+          active: pathname === `${BASE_PATH}/${id}`,
           component: forwardRef<HTMLAnchorElement, LinkProps>(
             ({ children, ...props }, ref) => (
-              <Link key={id} ref={ref} {...props} to={`/${id}`}>
+              <Link key={id} ref={ref} {...props} to={`${BASE_PATH}/${id}`}>
                 {children}
               </Link>
             ),

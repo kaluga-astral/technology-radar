@@ -5,7 +5,7 @@ import { DashboardLayout } from '@astral/ui';
 
 import { theme } from './theme';
 import { Header, Radar, SideBar } from './components';
-import { TEAMS } from './config';
+import { BASE_PATH, TEAMS } from './config';
 import { IntroScreen } from './screens';
 
 function App() {
@@ -17,11 +17,11 @@ function App() {
           <SideBar />
           <DashboardLayout.Main>
             <Routes>
-              <Route path="/" element={<IntroScreen />} />
+              <Route path={BASE_PATH} element={<IntroScreen />} />
               {Object.entries(TEAMS).map(([id]) => (
                 <Route
                   key={id}
-                  path={`/${id}`}
+                  path={`${BASE_PATH}/${id}`}
                   element={<Radar jsonName={id} />}
                 />
               ))}
