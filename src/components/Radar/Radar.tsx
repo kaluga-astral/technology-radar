@@ -1,6 +1,6 @@
 import { Grid } from '@astral/ui';
 
-import { RENDER_RADAR_URL } from '../../config';
+import { BASE_PATH, RENDER_RADAR_URL } from '../../config';
 
 import { RadarStyled } from './styles';
 
@@ -12,7 +12,7 @@ export const Radar = ({ jsonName }: RadarProps) => {
   return (
     <Grid spacing={2}>
       <RadarStyled
-        src={`${RENDER_RADAR_URL}/?documentId=${window.origin}/${jsonName}.json`}
+        src={`${RENDER_RADAR_URL}/?documentId=${window.origin}${BASE_PATH}/${jsonName}.json`}
       />
     </Grid>
   );
