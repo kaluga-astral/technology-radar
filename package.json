@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "lint": "eslint --fix --quiet",
     "lint:types": "tsc --noEmit",
     "lint:all": "eslint \"**/*.{ts,tsx}\" --fix --quiet",
