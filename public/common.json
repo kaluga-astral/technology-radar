@@ -27,7 +27,7 @@
     "name": "@astral/ui",
     "ring": "adopt",
     "quadrant": "tools",
-    "description": "Ui-kit Астрал-Софт"
+    "description": "<a target=\"_blank\" href=\"https://main--61baeff6f06230003a88ef8a.chromatic.com/?path=/docs/getting-started--docs\">Ui-kit</a> Астрал-Софт"
   },
   {
     "name": "@mui/material",
@@ -69,7 +69,7 @@
     "name": "@astral/mobx-query",
     "ring": "adopt",
     "quadrant": "tools",
-    "description": "Используем для работы с кэшом"
+    "description": "Используем для работы с кэшом <a target=\"_blank\" href=\"https://www.npmjs.com/package/@astral/mobx-query\">@astral/mobx-query</a>"
   },
   {
     "name": "react-query",
@@ -105,7 +105,7 @@
     "name": "@emotion/styled",
     "ring": "adopt",
     "quadrant": "tools",
-    "description": "Используем для стилизации компонентов"
+    "description": "Используем для стилизации компонентов, включен в <a target=\"_blank\" href=\"https://www.npmjs.com/package/@astral/ui\">@astral/ui</a>"
   },
   {
     "name": "jss",
@@ -123,18 +123,6 @@
     "name": "@astral/features",
     "ring": "adopt",
     "quadrant": "tools",
-    "description": "Функционал для КриптоПро Browser Plugin"
-  },
-  {
-    "name": "Apache Kylin",
-    "ring": "assess",
-    "quadrant": "platforms",
-    "description": "<a target=\"_blank\" href=\"http://local\">Apache Kylin</a> is an open source analytics solution ..."
-  },
-  {
-    "name": "JSF",
-    "ring": "hold",
-    "quadrant": "languages & frameworks",
-    "description": "We continue to see teams run into trouble using JSF ..."
+    "description": "<a target=\"_blank\" href=\"https://main--61baeff6f06230003a88ef8a.chromatic.com/?path=/docs/features-cryptoproprovider--docs\">Переиспользуемые фичи</a> домена Астрала"
   }
 ]
