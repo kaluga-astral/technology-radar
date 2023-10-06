@@ -312,6 +312,12 @@
     "description": ""
   },
   {
+    "name": "Private npm registry (Nexus)",
+    "ring": "adopt",
+    "quadrant": "infrastructure",
+    "description": "Для внутренних пакетов используем приватный npm registry"
+  },
+  {
     "name": "Яндекс.Метрика",
     "ring": "adopt",
     "quadrant": "infrastructure",
@@ -388,5 +394,11 @@
     "ring": "adopt",
     "quadrant": "techniques",
     "description": "Для каждого фронтендера есть ментор и индивидуальный план развития"
+  },
+  {
+    "name": "Open source",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "description": "Shared библиотеки находятся на <a target=\"_blank\" href=\"https://github.com/kaluga-astral\">github в публичном доступе</a>"
   }
 ]
