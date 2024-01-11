@@ -241,9 +241,9 @@
   },
   {
     "name": "webpack",
-    "ring": "adopt",
+    "ring": "hold",
     "quadrant": "infrastructure",
-    "description": ""
+    "description": "Переезжаем на Vite"
   },
   {
     "name": "sentry",
