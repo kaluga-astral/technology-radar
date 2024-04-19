@@ -19,7 +19,7 @@
   },
   {
     "name": "@astral/validations",
-    "ring": "trial",
+    "ring": "adopt",
     "quadrant": "libs",
     "description": "Используем для валидации форм по схеме"
   },
@@ -37,7 +37,13 @@
   },
   {
     "name": "lodash-es",
-    "ring": "adopt",
+    "ring": "hold",
+    "quadrant": "libs",
+    "description": "Мигрируем на remeda потому, что lodash-es слишком тяжелый"
+  },
+  {
+    "name": "remeda",
+    "ring": "trial",
     "quadrant": "libs",
     "description": "Используем для утилит"
   },
@@ -61,9 +67,9 @@
   },
   {
     "name": "reduxjs/toolkit",
-    "ring": "adopt",
+    "ring": "hold",
     "quadrant": "libs",
-    "description": ""
+    "description": "Мигрируем на mobx"
   },
   {
     "name": "@astral/mobx-query",
@@ -73,15 +79,15 @@
   },
   {
     "name": "react-query",
-    "ring": "adopt",
+    "ring": "hold",
     "quadrant": "libs",
-    "description":  "Используем для работы с кэшом"
+    "description": "Мигрируем на <a target=\"_blank\" href=\"https://www.npmjs.com/package/@astral/mobx-query\">@astral/mobx-query</a>"
   },
   {
     "name": "apollo",
-    "ring": "adopt",
+    "ring": "hold",
     "quadrant": "libs",
-    "description": ""
+    "description": "Отказываемся от gql, мигрируем на <a target=\"_blank\" href=\"https://www.npmjs.com/package/@astral/mobx-query\">@astral/mobx-query</a>"
   },
   {
     "name": "date-fns",
@@ -138,8 +144,8 @@
     "description": "Используется на проектах, где не Nextjs"
   },
   {
-    "name": "react-testing-library",
-    "ring": "trial",
+    "name": "@testing-library/react",
+    "ring": "adopt",
     "quadrant": "libs",
     "description": "Используем для компонентного тестирования"
   },
@@ -241,9 +247,9 @@
   },
   {
     "name": "webpack",
-    "ring": "hold",
+    "ring": "adopt",
     "quadrant": "infrastructure",
-    "description": "Переезжаем на Vite"
+    "description": "Где возможно, переезжаем на Vite"
   },
   {
     "name": "sentry",
@@ -259,19 +265,19 @@
   },
   {
     "name": "@astral/eslint-config-react-ts",
-    "ring": "trial",
+    "ring": "adopt",
     "quadrant": "infrastructure",
     "description": "Единый eslint конфиг"
   },
   {
     "name": "stylelint",
-    "ring": "trial",
+    "ring": "adopt",
     "quadrant": "infrastructure",
     "description": ""
   },
   {
     "name": "@astral/stylelint-config-styled",
-    "ring": "trial",
+    "ring": "adopt",
     "quadrant": "infrastructure",
     "description": "Единый stylelint конфиг"
   },
@@ -343,19 +349,37 @@
   },
   {
     "name": "Astral Architecture Guide",
-    "ring": "trial",
+    "ring": "adopt",
     "quadrant": "techniques",
     "description": "Единый архитектурный подход <a target=\"_blank\" href=\"https://industrious-search-cdf.notion.site/Astral-Frontend-Architecture-Guide-cbb7ccaa69384c65aec35292a5c13e2a\">Astral Architecture Guide</a>"
   },
   {
-    "name": "Style guide",
+    "name": "Astral Unit Testing Guide",
     "ring": "trial",
     "quadrant": "techniques",
-    "description": "Единый <a target=\"_blank\" href=\"https://track.astral.ru/soft/wiki/display/FG/Style+guide\">Style guide</a>"
+    "description": "Единый подход к unit-тестированию <a target=\"_blank\" href=\"https://industrious-search-cdf.notion.site/Astral-Frontend-Unit-Testing-Guide-71120289ed89424e912ebe7fa8b7e39b\">Astral Unit Testing Guide</a>"
+  },
+  {
+    "name": "Style guide",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "description": "Единый <a target=\"_blank\" href=\"https://kaluga-astral.github.io/style-guide/\">Style guide</a>"
+  },
+  {
+    "name": "Тех. радар",
+    "ring": "assess",
+    "quadrant": "techniques",
+    "description": "Процесс поддержки тех. радара позволяет контролировать стэк и инженерные практики команды"
+  },
+  {
+    "name": "Единые стандарты работы с тех. долгом",
+    "ring": "trial",
+    "quadrant": "techniques",
+    "description": "<a target=\"_blank\" href=\"https://track.astral.ru/soft/wiki/pages/viewpage.action?pageId=3849335546\">Стандарты</a> позволяют держать под контролем тех. долг продукта"
   },
   {
     "name": "Unit-тестирование",
-    "ring": "assess",
+    "ring": "trial",
     "quadrant": "techniques",
     "description": "Ожидаем guide по тестированию"
   },
@@ -379,9 +403,9 @@
   },
   {
     "name": "GraphQL",
-    "ring": "adopt",
+    "ring": "hold",
     "quadrant": "techniques",
-    "description": "Apollo + Nestjs"
+    "description": "Отказываемся в пользу REST"
   },
   {
     "name": "OpenID Connect",
