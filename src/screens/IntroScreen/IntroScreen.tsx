@@ -1,7 +1,7 @@
 import { Typography } from '@astral/ui';
 import { Link } from 'react-router-dom';
 
-import { BASE_PATH, TEAMS } from '../../config';
+import { TEAMS } from '../../config';
 
 import { IntroScreenDivider, IntroScreenPage } from './styles';
 
@@ -108,7 +108,7 @@ export const IntroScreen = () => {
         <ul>
           {Object.entries(TEAMS).map(([id, { name }]) => (
             <li>
-              <Link to={`${BASE_PATH}/${id}`}>
+              <Link to={`/${id}`}>
                 <Typography color="info">{name}</Typography>
               </Link>
             </li>
