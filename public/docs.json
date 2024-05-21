@@ -12,12 +12,6 @@
     "description": ""
   },
   {
-    "name": "yup",
-    "ring": "hold",
-    "quadrant": "libs",
-    "description": "Отказываемся в пользу @astral/validations"
-  },
-  {
     "name": "@astral/validations",
     "ring": "adopt",
     "quadrant": "libs",
@@ -43,7 +37,7 @@
   },
   {
     "name": "remeda",
-    "ring": "trial",
+    "ring": "assess",
     "quadrant": "libs",
     "description": "Используем для утилит"
   },
@@ -66,22 +60,10 @@
     "description": ""
   },
   {
-    "name": "reduxjs/toolkit",
-    "ring": "hold",
-    "quadrant": "libs",
-    "description": "Мигрируем на mobx"
-  },
-  {
     "name": "@astral/mobx-query",
-    "ring": "adopt",
+    "ring": "trial",
     "quadrant": "libs",
-    "description": "Используем для работы с кэшом <a target=\"_blank\" href=\"https://www.npmjs.com/package/@astral/mobx-query\">@astral/mobx-query</a> там, где используется mobx"
-  },
-  {
-    "name": "react-query",
-    "ring": "hold",
-    "quadrant": "libs",
-    "description": "Мигрируем на <a target=\"_blank\" href=\"https://www.npmjs.com/package/@astral/mobx-query\">@astral/mobx-query</a>"
+    "description": "Используем для работы с кэшом <a target=\"_blank\" href=\"https://www.npmjs.com/package/@astral/mobx-query\">@astral/mobx-query</a> там, где используется mobx. Исползуем в mobile. Нужно интегрировать в desktop"
   },
   {
     "name": "apollo",
@@ -100,12 +82,6 @@
     "ring": "trial",
     "quadrant": "libs",
     "description": ""
-  },
-  {
-    "name": "moment",
-    "ring": "hold",
-    "quadrant": "libs",
-    "description": "Отказываемся в пользу dayjs"
   },
   {
     "name": "@emotion/styled",
@@ -127,9 +103,9 @@
   },
   {
     "name": "storybook",
-    "ring": "adopt",
+    "ring": "hold",
     "quadrant": "libs",
-    "description": "Используем для ui-kit"
+    "description": ""
   },
   {
     "name": "@astral/features",
@@ -156,12 +132,6 @@
     "description": "Все пакеты с префиксом @astral-frontend не поддерживаются"
   },
   {
-    "name": "@astral-frontend/services",
-    "ring": "adopt",
-    "quadrant": "libs",
-    "description": "Пакет, содержащий сервис для работы с Астрал.Toolbox"
-  },
-  {
     "name": "Typescript",
     "ring": "adopt",
     "quadrant": "languages & frameworks",
@@ -180,16 +150,16 @@
     "description": ""
   },
   {
-    "name": "Nextjs",
-    "ring": "adopt",
-    "quadrant": "languages & frameworks",
-    "description": ""
-  },
-  {
     "name": "Nodejs",
     "ring": "adopt",
     "quadrant": "languages & frameworks",
     "description": "Используем для BFF"
+  },
+  {
+    "name": "Nginx",
+    "ring": "trial",
+    "quadrant": "languages & frameworks",
+    "description": "Используем для отдачи статики на mobile. Нужно интегрировать в desktop"
   },
   {
     "name": "Vitest",
@@ -205,33 +175,15 @@
   },
   {
     "name": "Nestjs",
-    "ring": "adopt",
+    "ring": "hold",
     "quadrant": "languages & frameworks",
-    "description": "Используем для BFF"
+    "description": "Отказываемся в пользу Ocelot"
   },
   {
     "name": "Express",
     "ring": "adopt",
     "quadrant": "languages & frameworks",
     "description": "Используем для BFF"
-  },
-  {
-    "name": "Svelte",
-    "ring": "hold",
-    "quadrant": "languages & frameworks",
-    "description": ""
-  },
-  {
-    "name": "Angular v1",
-    "ring": "hold",
-    "quadrant": "languages & frameworks",
-    "description": "Legacy"
-  },
-  {
-    "name": "npm",
-    "ring": "adopt",
-    "quadrant": "infrastructure",
-    "description": ""
   },
   {
     "name": "yarn",
@@ -241,9 +193,9 @@
   },
   {
     "name": "vite",
-    "ring": "adopt",
+    "ring": "trial",
     "quadrant": "infrastructure",
-    "description": ""
+    "description": "Интегрировали в mobile. При интеграции для desktop возникли трудности с циклическими зависимостями"
   },
   {
     "name": "webpack",
@@ -277,21 +229,15 @@
   },
   {
     "name": "@astral/stylelint-config-styled",
-    "ring": "adopt",
+    "ring": "trial",
     "quadrant": "infrastructure",
-    "description": "Единый stylelint конфиг"
+    "description": "Единый stylelint конфиг. Пока только в мобильной версии. Нужно интегрировать в desktop"
   },
   {
     "name": "yaspeller",
-    "ring": "adopt",
+    "ring": "hold",
     "quadrant": "infrastructure",
-    "description": ""
-  },
-  {
-    "name": "GitLab",
-    "ring": "adopt",
-    "quadrant": "infrastructure",
-    "description": ""
+    "description": "Не поддерживается, рекомендуют переходить на CSpell"
   },
   {
     "name": "Azure DevOps",
@@ -324,10 +270,16 @@
     "description": "Для внутренних пакетов используем приватный npm registry"
   },
   {
-    "name": "Яндекс.Метрика",
+    "name": "Posthog",
     "ring": "adopt",
     "quadrant": "infrastructure",
-    "description": "Для сбора аналитики. Есть <a target=\"_blank\" href=\"https://www.npmjs.com/package/@astral/yandex-metrika\">готовый сервис</a> для работы с метрикой"
+    "description": "Для сбора аналитики по пользовательским событиям"
+  },
+  {
+    "name": "dpdm",
+    "ring": "adopt",
+    "quadrant": "infrastructure",
+    "description": "Поиск циклических зависимостей на стадии CI"
   },
   {
     "name": "Техноретро",
@@ -367,7 +319,7 @@
   },
   {
     "name": "Тех. радар",
-    "ring": "assess",
+    "ring": "trial",
     "quadrant": "techniques",
     "description": "Процесс поддержки тех. радара позволяет контролировать стэк и инженерные практики команды"
   },
@@ -379,21 +331,21 @@
   },
   {
     "name": "Unit-тестирование",
-    "ring": "trial",
+    "ring": "adopt",
     "quadrant": "techniques",
-    "description": "Ожидаем guide по тестированию"
+    "description": "Guide по тестированию Astral Unit Testing Guide"
   },
   {
     "name": "Feature-toggle",
     "ring": "assess",
     "quadrant": "techniques",
-    "description": ""
+    "description": "Пока применяем простую реализацию прямо в коде проекта. Планируем перейти на более специализированные инструменты."
   },
   {
     "name": "Monorepo",
     "ring": "adopt",
     "quadrant": "techniques",
-    "description": "Npm workspaces || Yarn workspaces"
+    "description": "Yarn workspaces"
   },
   {
     "name": "Figma",
