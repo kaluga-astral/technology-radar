@@ -12,12 +12,6 @@
     "description": ""
   },
   {
-    "name": "yup",
-    "ring": "hold",
-    "quadrant": "libs",
-    "description": "Отказываемся в пользу @astral/validations"
-  },
-  {
     "name": "@astral/validations",
     "ring": "adopt",
     "quadrant": "libs",
@@ -66,22 +60,10 @@
     "description": ""
   },
   {
-    "name": "reduxjs/toolkit",
-    "ring": "hold",
-    "quadrant": "libs",
-    "description": "Мигрируем на mobx"
-  },
-  {
     "name": "@astral/mobx-query",
     "ring": "trial",
     "quadrant": "libs",
     "description": "Используем для работы с кэшом <a target=\"_blank\" href=\"https://www.npmjs.com/package/@astral/mobx-query\">@astral/mobx-query</a> там, где используется mobx. Исползуем в mobile. Нужно интегрировать в desktop"
-  },
-  {
-    "name": "react-query",
-    "ring": "hold",
-    "quadrant": "libs",
-    "description": "Мигрируем на <a target=\"_blank\" href=\"https://www.npmjs.com/package/@astral/mobx-query\">@astral/mobx-query</a>"
   },
   {
     "name": "apollo",
@@ -100,12 +82,6 @@
     "ring": "trial",
     "quadrant": "libs",
     "description": ""
-  },
-  {
-    "name": "moment",
-    "ring": "hold",
-    "quadrant": "libs",
-    "description": "Отказываемся в пользу dayjs"
   },
   {
     "name": "@emotion/styled",
@@ -129,7 +105,7 @@
     "name": "storybook",
     "ring": "hold",
     "quadrant": "libs",
-    "description": "Используем для ui-kit"
+    "description": ""
   },
   {
     "name": "@astral/features",
@@ -156,12 +132,6 @@
     "description": "Все пакеты с префиксом @astral-frontend не поддерживаются"
   },
   {
-    "name": "@astral-frontend/services",
-    "ring": "hold",
-    "quadrant": "libs",
-    "description": "Пакет, содержащий сервис для работы с Астрал.Toolbox"
-  },
-  {
     "name": "Typescript",
     "ring": "adopt",
     "quadrant": "languages & frameworks",
@@ -176,12 +146,6 @@
   {
     "name": "React",
     "ring": "adopt",
-    "quadrant": "languages & frameworks",
-    "description": ""
-  },
-  {
-    "name": "Nextjs",
-    "ring": "hold",
     "quadrant": "languages & frameworks",
     "description": ""
   },
@@ -220,24 +184,6 @@
     "ring": "adopt",
     "quadrant": "languages & frameworks",
     "description": "Используем для BFF"
-  },
-  {
-    "name": "Svelte",
-    "ring": "hold",
-    "quadrant": "languages & frameworks",
-    "description": ""
-  },
-  {
-    "name": "Angular v1",
-    "ring": "hold",
-    "quadrant": "languages & frameworks",
-    "description": "Legacy"
-  },
-  {
-    "name": "npm",
-    "ring": "hold",
-    "quadrant": "infrastructure",
-    "description": ""
   },
   {
     "name": "yarn",
@@ -294,12 +240,6 @@
     "description": "Не поддерживается, рекомендуют переходить на CSpell"
   },
   {
-    "name": "GitLab",
-    "ring": "hold",
-    "quadrant": "infrastructure",
-    "description": ""
-  },
-  {
     "name": "Azure DevOps",
     "ring": "adopt",
     "quadrant": "infrastructure",
@@ -328,12 +268,6 @@
     "ring": "adopt",
     "quadrant": "infrastructure",
     "description": "Для внутренних пакетов используем приватный npm registry"
-  },
-  {
-    "name": "Яндекс.Метрика",
-    "ring": "hold",
-    "quadrant": "infrastructure",
-    "description": "Для сбора аналитики. Есть <a target=\"_blank\" href=\"https://www.npmjs.com/package/@astral/yandex-metrika\">готовый сервис</a> для работы с метрикой"
   },
   {
     "name": "Posthog",
