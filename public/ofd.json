@@ -394,11 +394,5 @@
     "ring": "adopt",
     "quadrant": "techniques",
     "description": "Для каждого фронтендера есть ментор и индивидуальный план развития"
-  },
-  {
-    "name": "Open source",
-    "ring": "adopt",
-    "quadrant": "techniques",
-    "description": "Shared библиотеки находятся на <a target=\"_blank\" href=\"https://github.com/kaluga-astral\">github в публичном доступе</a>"
   }
 ]
