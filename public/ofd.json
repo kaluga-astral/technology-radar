@@ -21,7 +21,7 @@
     "name": "reselect",
     "ring": "hold",
     "quadrant": "libs",
-    "description": ""
+    "description": "Удалим вместе с Redux, т.к. использовался только с ним"
   },
   {
     "name": "use-debounce",
@@ -87,7 +87,7 @@
     "name": "react-final-form",
     "ring": "hold",
     "quadrant": "libs",
-    "description": ""
+    "description": "Отказываемся в пользу react-hook-form"
   },
   {
     "name": "@astral/validations",
@@ -172,12 +172,6 @@
     "ring": "adopt",
     "quadrant": "libs",
     "description": ""
-  },
-  {
-    "name": "storybook",
-    "ring": "adopt",
-    "quadrant": "libs",
-    "description": "Используем для ui-kit"
   },
   {
     "name": "react-router-dom",
@@ -291,7 +285,7 @@
     "name": "yaspeller",
     "ring": "hold",
     "quadrant": "infrastructure",
-    "description": ""
+    "description": "В процессе рассмотрения аналогов"
   },
   {
     "name": "GitLab",
