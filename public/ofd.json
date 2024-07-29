@@ -45,7 +45,7 @@
     "name": "sass",
     "ring": "hold",
     "quadrant": "libs",
-    "description": ""
+    "description": "Отказываемся в пользу @emotion/styled"
   },
   {
     "name": "redux",
