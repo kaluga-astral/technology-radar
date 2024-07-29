@@ -21,7 +21,7 @@
     "name": "reselect",
     "ring": "hold",
     "quadrant": "libs",
-    "description": "Удалим вместе с Redux, т.к. использовался только с ним"
+    "description": "Удалим вместе с Redux, т.к. используется только с ним"
   },
   {
     "name": "use-debounce",
