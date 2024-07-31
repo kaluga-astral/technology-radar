@@ -11,5 +11,6 @@ export const TEAMS: Record<string, { name: string; icon: FunctionComponent }> =
     common: { name: 'Общий по компании', icon: CertOutlineMd },
     docs: { name: 'Доки', icon: DocumentOutlineMd },
     ofd: { name: 'ОФД', icon: CassOutlineMd },
+    kedo: { name: 'KЭДО', icon: DocumentOutlineMd },
     // lkp: { name: 'ЛКП', icon: AnalyticOutlineMd },
   };
