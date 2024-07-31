@@ -1,0 +1,392 @@
+[
+  {
+    "name": "@astral/features",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": ""
+  },
+  {
+    "name": "@astral/validations",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": ""
+  },
+  {
+    "name": "@astral/validations-react-hook-form-resolver",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": ""
+  },
+  {
+    "name": "@astral/ui",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": ""
+  },
+  {
+    "name": "@astral/mobx-query",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": "Реактивный mobx кэш сервис данных"
+  },
+  {
+    "name": "@hookform/resolvers",
+    "ring": "hold",
+    "quadrant": "libs",
+    "description": "зависимость неактуальна"
+  },
+  {
+    "name": "@mui/lab",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": ""
+  },
+  {
+    "name": "@mui/material",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": ""
+  },
+  {
+    "name": "@sentry/browser",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": ""
+  },
+  {
+    "name": "@sentry/tracing",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": ""
+  },
+  {
+    "name": "jwt-decode",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": "используется для расшифровки jwt токена в дашборде, чтобы получить информацию о текущем пользователе"
+  },
+  {
+    "name": "remeda",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": ""
+  },
+  {
+    "name": "nanoid",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": "используется для генерации рандомных uuid"
+  },
+  {
+    "name": "react-dropzone",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": "Используем для функционала загрузки файлов как дрэг-дропом так и по кнопке"
+  },
+  {
+    "name": "react-hook-form",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": ""
+  },
+  {
+    "name": "react-pdf",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": "Используем для отрисовывания контента .pdf файла на странице и для взаимодействия пользователя с контентом .pdf файла"
+  },
+  {
+    "name": "react-router-dom",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": ""
+  },
+  {
+    "name": "react-use",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": ""
+  },
+  {
+    "name": "react-virtuoso",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": ""
+  },
+  {
+    "name": "heic2any",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": "конвертируем загружаемые пользователем .heic файлы в .jpeg на фронте"
+  },
+  {
+    "name": "axios",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": ""
+  },
+  {
+    "name": "classnames",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": ""
+  },
+  {
+    "name": "react",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": ""
+  },
+  {
+    "name": "react-dom",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": ""
+  },
+  {
+    "name": "mobx",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": ""
+  },
+  {
+    "name": "mobx-react-lite",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": ""
+  },
+  {
+    "name": "effector",
+    "ring": "hold",
+    "quadrant": "libs",
+    "description": "Постепенно перевозим реализованный функционал в пользу новой архитектуры и mobx"
+  },
+  {
+    "name": "effector-react",
+    "ring": "hold",
+    "quadrant": "libs",
+    "description": "Постепенно перевозим реализованный функционал в пользу новой архитектуры и mobx"
+  },
+  {
+    "name": "qrcode.react",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": "Рисуем с его помощью QR код при подключении двухфакторной подписи"
+  },
+  {
+    "name": "react-virtuoso",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": ""
+  },
+  {
+    "name": "ts-md5",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": "генерируем хэш пароля при логине в дашборде"
+  },
+  {
+    "name": "p-queue",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": "создаем очереди промисов при массовых и тяжелых для бэка операциях"
+  },
+  {
+    "name": "faker",
+    "ring": "assess",
+    "quadrant": "libs",
+    "description": ""
+  },
+  {
+    "name": "centrifuge",
+    "ring": "assess",
+    "quadrant": "libs",
+    "description": ""
+  },
+  {
+    "name": "@astral/permissions",
+    "ring": "assess",
+    "quadrant": "libs",
+    "description": "<a target=\"_blank\" href=\"https://kaluga-astral.github.io/guides/docs/category/permissions-%D0%BF%D0%B0%D1%82%D1%82%D0%B5%D1%80%D0%BD-%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%BE%D0%B2-%D0%BD%D0%B0-%D0%BA%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D0%B5\">Permissions</a> Паттерн доступов на клиенте"
+  },
+  {
+    "name": "Typescript",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "description": ""
+  },
+  {
+    "name": "Javascript",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "description": ""
+  },
+  {
+    "name": "React",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "description": ""
+  },
+  {
+    "name": "Nodejs",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "description": "Используем для BFF"
+  },
+  {
+    "name": "Vitest",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "description": "Тестовый фреймворк"
+  },
+  {
+    "name": "yarn",
+    "ring": "adopt",
+    "quadrant": "infrastructure",
+    "description": ""
+  },
+  {
+    "name": "yarn workspaces",
+    "ring": "adopt",
+    "quadrant": "infrastructure",
+    "description": ""
+  },
+  {
+    "name": "Nginx",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "description": ""
+  },
+  {
+    "name": "vite",
+    "ring": "adopt",
+    "quadrant": "infrastructure",
+    "description": ""
+  },
+  {
+    "name": "sentry",
+    "ring": "adopt",
+    "quadrant": "infrastructure",
+    "description": "Отправляем ассеты и мониторим ошибки"
+  },
+  {
+    "name": "eslint",
+    "ring": "adopt",
+    "quadrant": "infrastructure",
+    "description": ""
+  },
+  {
+    "name": "@astral/eslint-config-react-ts",
+    "ring": "adopt",
+    "quadrant": "infrastructure",
+    "description": ""
+  },
+  {
+    "name": "@astral/stylelint-config-styled",
+    "ring": "adopt",
+    "quadrant": "infrastructure",
+    "description": "Единый stylelint конфиг"
+  },
+  {
+    "name": "yaspeller",
+    "ring": "hold",
+    "quadrant": "infrastructure",
+    "description": "В процессе рассмотрения аналогов"
+  },
+  {
+    "name": "AzureDevops",
+    "ring": "adopt",
+    "quadrant": "infrastructure",
+    "description": ""
+  },
+  {
+    "name": "husky",
+    "ring": "adopt",
+    "quadrant": "infrastructure",
+    "description": ""
+  },
+  {
+    "name": "lint-staged",
+    "ring": "adopt",
+    "quadrant": "infrastructure",
+    "description": ""
+  },
+  {
+    "name": "prettier",
+    "ring": "adopt",
+    "quadrant": "infrastructure",
+    "description": ""
+  },
+  {
+    "name": "Private npm registry (Nexus)",
+    "ring": "adopt",
+    "quadrant": "infrastructure",
+    "description": "Для внутренних пакетов используем приватный npm registry"
+  },
+  {
+    "name": "Яндекс.Метрика",
+    "ring": "adopt",
+    "quadrant": "infrastructure",
+    "description": "Для сбора аналитики"
+  },
+  {
+    "name": "Monorepo",
+    "ring": "trial",
+    "quadrant": "techniques",
+    "description": "Супер монорепа основанная на нашей архитектуре, каждый слой и каждый модуль как мини приложение"
+  },
+  {
+    "name": "Astral Architecture Guide",
+    "ring": "assess",
+    "quadrant": "techniques",
+    "description": "Единый архитектурный подход <a target=\"_blank\" href=\"https://industrious-search-cdf.notion.site/Astral-Frontend-Architecture-Guide-cbb7ccaa69384c65aec35292a5c13e2a\">Astral Architecture Guide</a>"
+  },
+  {
+    "name": "Astral Unit Testing Guide",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "description": "Единый подход к unit-тестированию <a target=\"_blank\" href=\"https://industrious-search-cdf.notion.site/Astral-Frontend-Unit-Testing-Guide-71120289ed89424e912ebe7fa8b7e39b\">Astral Unit Testing Guide</a>"
+  },
+  {
+    "name": "Style guide",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "description": "Единый <a target=\"_blank\" href=\"https://kaluga-astral.github.io/style-guide/\">Style guide</a>"
+  },
+  {
+    "name": "Тех. радар",
+    "ring": "trial",
+    "quadrant": "techniques",
+    "description": "Процесс поддержки тех. радара позволяет контролировать стэк и инженерные практики команды"
+  },
+  {
+    "name": "Единые стандарты работы с тех. долгом",
+    "ring": "trial",
+    "quadrant": "techniques",
+    "description": "<a target=\"_blank\" href=\"https://track.astral.ru/soft/wiki/pages/viewpage.action?pageId=3849335546\">Стандарты</a> позволяют держать под контролем тех. долг продукта"
+  },
+  {
+    "name": "Unit-тестирование",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "description": "Guide по тестированию Astral Unit Testing Guide"
+  },
+  {
+    "name": "Figma",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "description": ""
+  },
+  {
+    "name": "OpenID Connect",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "description": "Используется единая система авторизации"
+  },
+  {
+    "name": "Система менторинга",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "description": "Для каждого фронтендера есть ментор и индивидуальный план развития"
+  }
+]
