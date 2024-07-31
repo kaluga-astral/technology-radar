@@ -337,7 +337,7 @@
   },
   {
     "name": "Astral Architecture Guide",
-    "ring": "assess",
+    "ring": "adopt",
     "quadrant": "techniques",
     "description": "Единый архитектурный подход <a target=\"_blank\" href=\"https://industrious-search-cdf.notion.site/Astral-Frontend-Architecture-Guide-cbb7ccaa69384c65aec35292a5c13e2a\">Astral Architecture Guide</a>"
   },
