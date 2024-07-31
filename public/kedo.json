@@ -252,12 +252,6 @@
     "description": ""
   },
   {
-    "name": "bun",
-    "ring": "assess",
-    "quadrant": "infrastructure",
-    "description": "Требуется попробовать и проверить возможности"
-  },
-  {
     "name": "Nginx",
     "ring": "adopt",
     "quadrant": "languages & frameworks",
@@ -343,7 +337,7 @@
   },
   {
     "name": "Astral Architecture Guide",
-    "ring": "adopt",
+    "ring": "assess",
     "quadrant": "techniques",
     "description": "Единый архитектурный подход <a target=\"_blank\" href=\"https://industrious-search-cdf.notion.site/Astral-Frontend-Architecture-Guide-cbb7ccaa69384c65aec35292a5c13e2a\">Astral Architecture Guide</a>"
   },
