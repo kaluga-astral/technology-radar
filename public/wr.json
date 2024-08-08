@@ -96,12 +96,6 @@
     "description": "Не используется"
   },
   {
-    "name": "core-js",
-    "ring": "hold",
-    "quadrant": "libs",
-    "description": "Не используется"
-  },
-  {
     "name": "js-base64",
     "ring": "adopt",
     "quadrant": "libs",
@@ -174,16 +168,10 @@
     "description": ""
   },
   {
-    "name": "react-router-dom",
+    "name": "react-router-dom@5",
     "ring": "adopt",
     "quadrant": "libs",
     "description": ""
-  },
-  {
-    "name": "react-text-mask",
-    "ring": "hold",
-    "quadrant": "libs",
-    "description": "Не используется"
   },
   {
     "name": "react-toastify",

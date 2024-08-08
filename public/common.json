@@ -174,12 +174,6 @@
     "description": ""
   },
   {
-    "name": "core-js",
-    "ring": "hold",
-    "quadrant": "libs",
-    "description": ""
-  },
-  {
     "name": "js-base64",
     "ring": "adopt",
     "quadrant": "libs",
@@ -226,12 +220,6 @@
     "ring": "adopt",
     "quadrant": "libs",
     "description": ""
-  },
-  {
-    "name": "react-text-mask",
-    "ring": "hold",
-    "quadrant": "libs",
-    "description": "Не используется"
   },
   {
     "name": "react-toastify",
@@ -405,7 +393,7 @@
     "name": "effector",
     "ring": "hold",
     "quadrant": "libs",
-    "description": "Постепенно перевозим реализованный функционал в пользу новой архитектуры и mobx"
+    "description": "Используется в КЭДО"
   },
   {
     "name": "qrcode.react",
@@ -577,9 +565,9 @@
   },
   {
     "name": "TeamCity",
-    "ring": "hold",
+    "ring": "adopt",
     "quadrant": "infrastructure",
-    "description": ""
+    "description": "Используется в ОФД"
   },
   {
     "name": "husky",
