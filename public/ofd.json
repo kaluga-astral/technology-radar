@@ -294,6 +294,12 @@
     "description": ""
   },
   {
+    "name": "TeamCity",
+    "ring": "adopt",
+    "quadrant": "infrastructure",
+    "description": ""
+  },
+  {
     "name": "husky",
     "ring": "adopt",
     "quadrant": "infrastructure",
