@@ -162,10 +162,256 @@
     "description": "Пакет, содержащий сервис для работы с Астрал.Toolbox"
   },
   {
+    "name": "classnames",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": ""
+  },
+  {
+    "name": "immutability-helper",
+    "ring": "hold",
+    "quadrant": "libs",
+    "description": ""
+  },
+  {
+    "name": "js-base64",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": ""
+  },
+  {
+    "name": "cookies",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": ""
+  },
+  {
+    "name": "memoize-one",
+    "ring": "hold",
+    "quadrant": "libs",
+    "description": ""
+  },
+  {
+    "name": "prop-types",
+    "ring": "hold",
+    "quadrant": "libs",
+    "description": "Отказываемся в пользу ts"
+  },
+  {
+    "name": "react-day-picker",
+    "ring": "hold",
+    "quadrant": "libs",
+    "description": "Отказываемся в пользу @astral/ui"
+  },
+  {
+    "name": "qs",
+    "ring": "hold",
+    "quadrant": "libs",
+    "description": "Отказываемся в пользу query-string, т.к. qs слишком тяжелый"
+  },
+  {
+    "name": "query-string",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": ""
+  },
+  {
+    "name": "react-dropzone",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": ""
+  },
+  {
+    "name": "react-toastify",
+    "ring": "hold",
+    "quadrant": "libs",
+    "description": "Будет использоваться в рамках использования @astral/ui"
+  },
+  {
+    "name": "react-yandex-metrika",
+    "ring": "hold",
+    "quadrant": "libs",
+    "description": "Отказываемся в пользу @astral/yandex-metrika"
+  },
+  {
+    "name": "waypoints",
+    "ring": "hold",
+    "quadrant": "libs",
+    "description": ""
+  },
+  {
+    "name": "@faker-js/faker",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": ""
+  },
+  {
+    "name": "less",
+    "ring": "hold",
+    "quadrant": "libs",
+    "description": "Отказываемся в пользу @emotion/styled"
+  },
+  {
+    "name": "bootstrap v2",
+    "ring": "hold",
+    "quadrant": "libs",
+    "description": "Legacy"
+  },
+  {
+    "name": "jquery v1",
+    "ring": "hold",
+    "quadrant": "libs",
+    "description": "Legacy"
+  },
+  {
+    "name": "react-virtuoso",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": ""
+  },
+  {
+    "name": "react-waypoint",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": ""
+  },
+  {
+    "name": "lottie-react",
+    "ring": "hold",
+    "quadrant": "libs",
+    "description": "В процессе рассмотрения аналогов, из-за большого веса"
+  },
+  {
+    "name": "reselect",
+    "ring": "hold",
+    "quadrant": "libs",
+    "description": "Удалим вместе с Redux, т.к. используется только с ним"
+  },
+  {
+    "name": "use-debounce",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": ""
+  },
+  {
+    "name": "faker",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": ""
+  },
+  {
+    "name": "downloadjs",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": ""
+  },
+  {
+    "name": "sass",
+    "ring": "hold",
+    "quadrant": "libs",
+    "description": "Отказываемся в пользу @emotion/styled"
+  },
+  {
+    "name": "redux",
+    "ring": "hold",
+    "quadrant": "libs",
+    "description": "Отказываемся в пользу Mobx"
+  },
+  {
+    "name": "reatom",
+    "ring": "hold",
+    "quadrant": "libs",
+    "description": "Отказываемся в пользу Mobx"
+  },
+  {
     "name": "Typescript",
     "ring": "adopt",
     "quadrant": "languages & frameworks",
     "description": ""
+  },
+  {
+    "name": "centrifuge",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": ""
+  },
+  {
+    "name": "dnd-kit",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": ""
+  },
+  {
+    "name": "@astral/permissions",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": "<a target=\"_blank\" href=\"https://kaluga-astral.github.io/guides/docs/category/permissions-%D0%BF%D0%B0%D1%82%D1%82%D0%B5%D1%80%D0%BD-%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%BE%D0%B2-%D0%BD%D0%B0-%D0%BA%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D0%B5\">Permissions</a> Паттерн доступов на клиенте"
+  },
+  {
+    "name": "@astral/validations-react-hook-form-resolver",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": ""
+  },
+  {
+    "name": "@hookform/resolvers",
+    "ring": "hold",
+    "quadrant": "libs",
+    "description": "зависимость неактуальна"
+  },
+  {
+    "name": "@mui/lab",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": ""
+  },
+  {
+    "name": "jwt-decode",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": "используется для расшифровки jwt токена в дашборде, чтобы получить информацию о текущем пользователе"
+  },
+  {
+    "name": "nanoid",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": "используется для генерации рандомных uuid"
+  },
+  {
+    "name": "react-pdf",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": "Используем для отрисовывания контента .pdf файла на странице и для взаимодействия пользователя с контентом .pdf файла"
+  },
+  {
+    "name": "heic2any",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": "конвертируем загружаемые пользователем .heic файлы в .jpeg на фронте"
+  },
+  {
+    "name": "effector",
+    "ring": "hold",
+    "quadrant": "libs",
+    "description": "Используется в КЭДО"
+  },
+  {
+    "name": "qrcode.react",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": "Рисуем с его помощью QR код при подключении двухфакторной подписи"
+  },
+  {
+    "name": "ts-md5",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": "генерируем хэш пароля при логине в дашборде"
+  },
+  {
+    "name": "p-queue",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": "создаем очереди промисов при массовых и тяжелых для бэка операциях"
   },
   {
     "name": "Javascript",
@@ -228,6 +474,18 @@
     "description": "Legacy"
   },
   {
+    "name": "Nginx",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "description": ""
+  },
+  {
+    "name": "ASP.NET",
+    "ring": "hold",
+    "quadrant": "languages & frameworks",
+    "description": "Legacy"
+  },
+  {
     "name": "npm",
     "ring": "adopt",
     "quadrant": "infrastructure",
@@ -235,6 +493,12 @@
   },
   {
     "name": "yarn",
+    "ring": "adopt",
+    "quadrant": "infrastructure",
+    "description": ""
+  },
+  {
+    "name": "yarn workspaces",
     "ring": "adopt",
     "quadrant": "infrastructure",
     "description": ""
@@ -300,6 +564,12 @@
     "description": ""
   },
   {
+    "name": "TeamCity",
+    "ring": "adopt",
+    "quadrant": "infrastructure",
+    "description": "Используется в ОФД"
+  },
+  {
     "name": "husky",
     "ring": "adopt",
     "quadrant": "infrastructure",
@@ -318,6 +588,12 @@
     "description": ""
   },
   {
+    "name": "@astral/prettier-config",
+    "ring": "adopt",
+    "quadrant": "infrastructure",
+    "description": "Единый prettier конфиг"
+  },
+  {
     "name": "Private npm registry (Nexus)",
     "ring": "adopt",
     "quadrant": "infrastructure",
@@ -328,6 +604,24 @@
     "ring": "adopt",
     "quadrant": "infrastructure",
     "description": "Для сбора аналитики. Есть <a target=\"_blank\" href=\"https://www.npmjs.com/package/@astral/yandex-metrika\">готовый сервис</a> для работы с метрикой"
+  },
+  {
+    "name": "Posthog",
+    "ring": "adopt",
+    "quadrant": "infrastructure",
+    "description": "Для сбора аналитики по пользовательским событиям"
+  },
+  {
+    "name": "dpdm",
+    "ring": "adopt",
+    "quadrant": "infrastructure",
+    "description": "Поиск циклических зависимостей на стадии CI"
+  },
+  {
+    "name": "drone",
+    "ring": "adopt",
+    "quadrant": "infrastructure",
+    "description": ""
   },
   {
     "name": "Техноретро",
@@ -381,7 +675,7 @@
     "name": "Unit-тестирование",
     "ring": "trial",
     "quadrant": "techniques",
-    "description": "Ожидаем guide по тестированию"
+    "description": "Guide по тестированию Astral Unit Testing Guide"
   },
   {
     "name": "Feature-toggle",

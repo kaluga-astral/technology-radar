@@ -174,12 +174,6 @@
     "description": "Рисуем с его помощью QR код при подключении двухфакторной подписи"
   },
   {
-    "name": "react-virtuoso",
-    "ring": "adopt",
-    "quadrant": "libs",
-    "description": ""
-  },
-  {
     "name": "ts-md5",
     "ring": "adopt",
     "quadrant": "libs",
@@ -294,7 +288,7 @@
     "description": "В процессе рассмотрения аналогов"
   },
   {
-    "name": "AzureDevops",
+    "name": "Azure DevOps",
     "ring": "adopt",
     "quadrant": "infrastructure",
     "description": ""
