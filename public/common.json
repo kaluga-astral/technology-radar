@@ -414,6 +414,115 @@
     "description": "создаем очереди промисов при массовых и тяжелых для бэка операциях"
   },
   {
+    "name": "async-mutex",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": "Для реализации 2FA"
+  },
+  {
+    "name": "use-query-params",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": "Для query-параметров"
+  },
+  {
+    "name": "reactour",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": "Для интерактивного онбординга"
+  },
+  {
+    "name": "humps",
+    "ring": "hold",
+    "quadrant": "libs",
+    "description": "Для преобразования ключей query-параметров в camel case"
+  },
+  {
+    "name": "history",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": ""
+  },
+  {
+    "name": "content-disposition-header",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": "Для получения названия файла из http заголовка"
+  },
+  {
+    "name": "body-scroll-lock",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": "Для блокировки скролла"
+  },
+  {
+    "name": "@astral-private/crypto",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": "Пакет для выполнения криптоопераций"
+  },
+  {
+    "name": "@material-ui",
+    "ring": "hold",
+    "quadrant": "libs",
+    "description": "Legacy, переходим на @mui/material и @astral/ui"
+  },
+  {
+    "name": "@astral/cryptopro-cades",
+    "ring": "hold",
+    "quadrant": "libs",
+    "description": "Отказываемся в пользу @astral-private/crypto"
+  },
+  {
+    "name": "react-verification-code-input",
+    "ring": "hold",
+    "quadrant": "libs",
+    "description": "Отказываемся в пользу компонента из @astral/ui"
+  },
+  {
+    "name": "react-transition-group",
+    "ring": "hold",
+    "quadrant": "libs",
+    "description": "Legacy"
+  },
+  {
+    "name": "react-select",
+    "ring": "hold",
+    "quadrant": "libs",
+    "description": "Legacy"
+  },
+  {
+    "name": "react-highlight-words",
+    "ring": "hold",
+    "quadrant": "libs",
+    "description": "Legacy"
+  },
+  {
+    "name": "react-content-loader",
+    "ring": "hold",
+    "quadrant": "libs",
+    "description": "Отказываемся в пользу Skeleton из @astral/ui"
+  },
+  {
+    "name": "punycode.js",
+    "ring": "hold",
+    "quadrant": "libs",
+    "description": "Legacy, что-то для валидации кириллицы"
+  },
+  {
+    "name": "mask-js",
+    "ring": "hold",
+    "quadrant": "libs",
+    "description": "Для добавления маски номеру телефона"
+  },
+  {
+    "name": "react-input-mask",
+    "ring": "hold",
+    "quadrant": "libs",
+    "description": "Типизация компонентов из @astral-frontend"
+  },
+
+  {
     "name": "Javascript",
     "ring": "adopt",
     "quadrant": "languages & frameworks",
@@ -547,9 +656,9 @@
   },
   {
     "name": "yaspeller",
-    "ring": "adopt",
+    "ring": "hold",
     "quadrant": "infrastructure",
-    "description": ""
+    "description": "Пакет deprecated, отказ в пользу cspell"
   },
   {
     "name": "GitLab",
@@ -622,6 +731,12 @@
     "ring": "adopt",
     "quadrant": "infrastructure",
     "description": ""
+  },
+  {
+    "name": "cspell",
+    "ring": "assess",
+    "quadrant": "infrastructure",
+    "description": "Проверка грамматики"
   },
   {
     "name": "Техноретро",
