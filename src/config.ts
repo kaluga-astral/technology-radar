@@ -19,6 +19,6 @@ export const TEAMS: Record<string, { name: string; icon: FunctionComponent }> =
     ofd: { name: 'ОФД', icon: CassOutlineMd },
     kedo: { name: 'KЭДО', icon: DocumentOutlineMd },
     wr: { name: 'Web-Регистратор', icon: PeopleOutlineMd },
-    etp: { name: 'Подпись', icon: CertAddOutlineMd },
+    sign: { name: 'Подпись', icon: CertAddOutlineMd },
     // lkp: { name: 'ЛКП', icon: AnalyticOutlineMd },
   };

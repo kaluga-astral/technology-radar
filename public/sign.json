@@ -114,7 +114,7 @@
     "description": "Для интерактивного онбординга"
   },
   {
-    "name": "react-router-dom",
+    "name": "react-router-dom 5",
     "ring": "adopt",
     "quadrant": "libs",
     "description": "Роутер"
@@ -293,12 +293,6 @@
     "description": ""
   },
   {
-    "name": "React",
-    "ring": "adopt",
-    "quadrant": "languages & frameworks",
-    "description": ""
-  },
-  {
     "name": "Vitest",
     "ring": "adopt",
     "quadrant": "languages & frameworks",
@@ -307,6 +301,18 @@
   {
     "name": "Nginx",
     "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "description": ""
+  },
+  {
+    "name": "React 17",
+    "ring": "hold",
+    "quadrant": "languages & frameworks",
+    "description": "Обновляем до React 18"
+  },
+  {
+    "name": "React 18",
+    "ring": "assess",
     "quadrant": "languages & frameworks",
     "description": ""
   },

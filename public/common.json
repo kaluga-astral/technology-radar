@@ -31,9 +31,9 @@
   },
   {
     "name": "@mui/material",
-    "ring": "adopt",
+    "ring": "hold",
     "quadrant": "libs",
-    "description": "Ui-kit построен на базе mui. Пока ui-kit не покрыл все кейсы продуктов некоторые компоненты могут браться из mui"
+    "description": "Ui-kit построен на базе mui. Необходимо брать компоненты из него."
   },
   {
     "name": "lodash-es",
@@ -529,7 +529,13 @@
     "description": ""
   },
   {
-    "name": "React",
+    "name": "React 17",
+    "ring": "hold",
+    "quadrant": "languages & frameworks",
+    "description": "Обновляем до React 18"
+  },
+  {
+    "name": "React 18",
     "ring": "adopt",
     "quadrant": "languages & frameworks",
     "description": ""
