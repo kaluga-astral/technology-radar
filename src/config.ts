@@ -1,6 +1,7 @@
 import { FunctionComponent } from 'react';
 import {
   CassOutlineMd,
+  CertAddOutlineMd,
   CertOutlineMd,
   DocumentOutlineMd,
   PeopleOutlineMd,
@@ -18,5 +19,6 @@ export const TEAMS: Record<string, { name: string; icon: FunctionComponent }> =
     ofd: { name: 'ОФД', icon: CassOutlineMd },
     kedo: { name: 'KЭДО', icon: DocumentOutlineMd },
     wr: { name: 'Web-Регистратор', icon: PeopleOutlineMd },
+    sign: { name: 'Подпись', icon: CertAddOutlineMd },
     // lkp: { name: 'ЛКП', icon: AnalyticOutlineMd },
   };
