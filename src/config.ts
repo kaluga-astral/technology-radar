@@ -16,7 +16,7 @@ export { RENDER_RADAR_URL, BASE_PATH };
 export const TEAMS: Record<string, { name: string; icon: FunctionComponent }> =
   {
     common: { name: 'Общий по компании', icon: CertOutlineMd },
-    identity: {name: "Экосистема", icon: ProfileOutlineMd},
+    identity: { name: "Экосистема", icon: ProfileOutlineMd },
     docs: { name: 'Доки', icon: DocumentOutlineMd },
     ofd: { name: 'ОФД', icon: CassOutlineMd },
     kedo: { name: 'KЭДО', icon: DocumentOutlineMd },
