@@ -1,17 +1,5 @@
 [
   {
-    "name": "Тех. радар",
-    "ring": "assess",
-    "quadrant": "techniques",
-    "descriptions": "Внедряем технический радар для команды"
-  },
-  {
-    "name": "Feature-toggle",
-    "ring": "assess",
-    "quadrant": "techniques",
-    "description": "Ждем задачи для внедрения"
-  },
-  {
     "name": "Feature-toggle",
     "ring": "assess",
     "quadrant": "techniques",
