@@ -5,6 +5,7 @@ import {
   CertOutlineMd,
   DocumentOutlineMd,
   PeopleOutlineMd,
+  ProfileOutlineMd
 } from '@astral/ui';
 
 const { VITE_RENDER_RADAR_URL: RENDER_RADAR_URL, VITE_BASE_PATH: BASE_PATH } =
@@ -20,5 +21,6 @@ export const TEAMS: Record<string, { name: string; icon: FunctionComponent }> =
     kedo: { name: 'KЭДО', icon: DocumentOutlineMd },
     wr: { name: 'Web-Регистратор', icon: PeopleOutlineMd },
     sign: { name: 'Подпись', icon: CertAddOutlineMd },
+    identity: {name: "Экосистема", icon: ProfileOutlineMd}
     // lkp: { name: 'ЛКП', icon: AnalyticOutlineMd },
   };
