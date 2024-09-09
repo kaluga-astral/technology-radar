@@ -252,12 +252,6 @@
     "description": ""
   },
   {
-    "name": "Nextjs",
-    "ring": "adopt",
-    "quadrant": "languages & frameworks",
-    "description": ""
-  },
-  {
     "name": "Nodejs",
     "ring": "adopt",
     "quadrant": "languages & frameworks",
@@ -292,6 +286,12 @@
     "ring": "adopt",
     "quadrant": "languages & frameworks",
     "description": ""
+  },
+  {
+    "name": "Nextjs",
+    "ring": "hold",
+    "quadrant": "languages & frameworks",
+    "description": "Планируем переезд на vite"
   },
   {
     "name": "react-final-form",
