@@ -1,5 +1,17 @@
 [
   {
+    "name": "winston",
+    "ring": "hold",
+    "quadrant": "libs",
+    "description": "Планируется переход на асинхронный логгер"
+  },
+  {
+    "name": "redis",
+    "ring": "hold",
+    "quadrant": "libs",
+    "description": "Планируется переход на ioredis"
+  },
+  {
     "name": "react-hook-form",
     "ring": "adopt",
     "quadrant": "libs",
@@ -102,6 +114,18 @@
     "description": ""
   },
   {
+    "name": "ioredis",
+    "ring": "trial",
+    "quadrant": "libs",
+    "description": "Для работы с хранилищем redis"
+  },
+  {
+    "name": "redlock",
+    "ring": "trial",
+    "quadrant": "libs",
+    "description": "Для эксклюзивного доступа к redis"
+  },
+  {
     "name": "moment",
     "ring": "hold",
     "quadrant": "libs",
@@ -121,6 +145,12 @@
   },
   {
     "name": "axios",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": ""
+  },
+  {
+    "name": "axios-retry",
     "ring": "adopt",
     "quadrant": "libs",
     "description": ""
@@ -432,6 +462,36 @@
     "description": "Для интерактивного онбординга"
   },
   {
+    "name": "inversify",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": "Для инжектирование зависимостей с помощью декораторов в express"
+  },
+  {
+    "name": "openid-client",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": "Для реализации OIDC протокола"
+  },
+  {
+    "name": "slick-carousel",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": "Для автоматического пролистывания реклам, картинок"
+  },
+  {
+    "name": "passport",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": "Используется для стратегий авторизации"
+  },
+  {
+    "name": "cors",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": "Используется для добавление CORS политик"
+  },
+  {
     "name": "humps",
     "ring": "hold",
     "quadrant": "libs",
@@ -601,6 +661,12 @@
     "description": "Legacy"
   },
   {
+    "name": "simple-git-hooks",
+    "ring": "hold",
+    "quadrant": "infrastructure",
+    "description": ""
+  },
+  {
     "name": "npm",
     "ring": "adopt",
     "quadrant": "infrastructure",
@@ -745,6 +811,30 @@
     "description": "Проверка грамматики"
   },
   {
+    "name": "Real-time",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "description": "Обновление событий в реальном времени"
+  },
+  {
+    "name": "Ubiquitous Language",
+    "ring": "trial",
+    "quadrant": "techniques",
+    "description": "Единый язык предметной области"
+  },
+  {
+    "name": "Event storming",
+    "ring": "trial",
+    "quadrant": "techniques",
+    "description": "Штурм событий для домена предметной области"
+  },
+  {
+    "name": "Release train",
+    "ring": "trial",
+    "quadrant": "techniques",
+    "description": "Release Train — это процесс координации релизов между командами"
+  },
+  {
     "name": "Техноретро",
     "ring": "trial",
     "quadrant": "techniques",
@@ -839,5 +929,11 @@
     "ring": "adopt",
     "quadrant": "techniques",
     "description": "Shared библиотеки находятся на <a target=\"_blank\" href=\"https://github.com/kaluga-astral\">github в публичном доступе</a>"
+  },
+  {
+    "name": "GitFlow с двумя жизненными циклами задач",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "description": "Используем два пути движения задач (work/feature), по одному пути идут долгие задачи, по второму быстрые задачи"
   }
 ]
