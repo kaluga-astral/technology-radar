@@ -465,19 +465,19 @@
     "name": "inversify",
     "ring": "adopt",
     "quadrant": "libs",
-    "description": "Для инжектирование зависимостей с помощью декораторов"
+    "description": "Для инжектирование зависимостей с помощью декораторов в express"
   },
   {
     "name": "openid-client",
     "ring": "adopt",
     "quadrant": "libs",
-    "description": "Используется для OIDC протокола"
+    "description": "Для реализации OIDC протокола"
   },
   {
     "name": "slick-carousel",
     "ring": "adopt",
     "quadrant": "libs",
-    "description": "Используется для рекламы на странице авторизации"
+    "description": "Для автоматического пролистывания реклам, картинок"
   },
   {
     "name": "passport",
@@ -664,7 +664,7 @@
     "name": "simple-git-hooks",
     "ring": "hold",
     "quadrant": "infrastructure",
-    "description": "Отказываемся после рефакторинга продукта"
+    "description": ""
   },
   {
     "name": "npm",
@@ -812,27 +812,27 @@
   },
   {
     "name": "Real-time",
-    "ring": "assess",
+    "ring": "adopt",
     "quadrant": "techniques",
-    "description": "Ждем задачи для внедрения реал тайма"
+    "description": "Обновление событий в реальном времени"
   },
   {
     "name": "Ubiquitous Language",
     "ring": "trial",
     "quadrant": "techniques",
-    "description": "Внедряем в команду единый язык по предметной области"
+    "description": "Единый язык предметной области"
   },
   {
     "name": "Event storming",
     "ring": "trial",
     "quadrant": "techniques",
-    "description": "Внедряем в команду штурм событий для домена предметной области"
+    "description": "Штурм событий для домена предметной области"
   },
   {
     "name": "Release train",
     "ring": "trial",
     "quadrant": "techniques",
-    "description": "Думаем об внедрение Release train для ускорения поставок"
+    "description": "Release Train — это процесс координации релизов между командами"
   },
   {
     "name": "Техноретро",
