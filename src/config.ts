@@ -4,6 +4,7 @@ import {
   CertAddOutlineMd,
   CertOutlineMd,
   DocumentOutlineMd,
+  DocumentsOutlineMd,
   PeopleOutlineMd,
   ProfileOutlineMd
 } from '@astral/ui';
@@ -22,5 +23,6 @@ export const TEAMS: Record<string, { name: string; icon: FunctionComponent }> =
     kedo: { name: 'KЭДО', icon: DocumentOutlineMd },
     wr: { name: 'Web-Регистратор', icon: PeopleOutlineMd },
     sign: { name: 'Подпись', icon: CertAddOutlineMd },
+    poa: { name: 'МЧД', icon: DocumentsOutlineMd },
     // lkp: { name: 'ЛКП', icon: AnalyticOutlineMd },
   };

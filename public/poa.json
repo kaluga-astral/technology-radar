@@ -1,0 +1,344 @@
+[
+  {
+    "name": "@astral/validations",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": "Библиотека для валидации форм по схеме"
+  },
+  {
+    "name": "@astral/validations-react-hook-form-resolver",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": ""
+  },
+  {
+    "name": "@astral/ui",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": "<a target=\"_blank\" href=\"https://main--61baeff6f06230003a88ef8a.chromatic.com/?path=/docs/getting-started--docs\">Ui-kit</a> Астрал-Софт"
+  },
+  {
+    "name": "react-use",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": "Переиспользуемые хуки"
+  },
+  {
+    "name": "mobx",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": "State manager"
+  },
+  {
+    "name": "mobx-react-lite",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": "Облегченная версия mobx-react, поддерживает только функциональные компоненты"
+  },
+  {
+    "name": "@astral/mobx-query",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": "Используем для работы с кэшом <a target=\"_blank\" href=\"https://www.npmjs.com/package/@astral/mobx-query\">@astral/mobx-query</a> там, где используется mobx"
+  },
+  {
+    "name": "axios",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": "Библиотека для выполнения запросов на промисах"
+  },
+  {
+    "name": "axios-retry",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": ""
+  },
+  {
+    "name": "@astral/features",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": "<a target=\"_blank\" href=\"https://main--61baeff6f06230003a88ef8a.chromatic.com/?path=/docs/features-cryptoproprovider--docs\">Переиспользуемые фичи</a> домена Астрала"
+  },
+  {
+    "name": "query-string",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": ""
+  },
+  {
+    "name": "@faker-js/faker",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": ""
+  },
+  {
+    "name": "centrifuge",
+    "ring": "trial",
+    "quadrant": "libs",
+    "description": "Библиотека для Real-time"
+  },
+  {
+    "name": "@astral-private/crypto",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": "Пакет для выполнения криптоопераций"
+  },
+  {
+    "name": "lodash.debounce",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": ""
+  },
+  {
+    "name": "iconv-lite",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": ""
+  },
+  {
+    "name": "@newhighsco/next-plugin-svgr",
+    "ring": "adopt",
+    "quadrant": "libs",
+    "description": ""
+  },
+  {
+    "name": "Typescript",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "description": ""
+  },
+  {
+    "name": "Javascript",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "description": ""
+  },
+  {
+    "name": "React 18",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "description": ""
+  },
+  {
+    "name": "Nextjs",
+    "ring": "hold",
+    "quadrant": "languages & frameworks",
+    "description": ""
+  },
+  {
+    "name": "Nodejs",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "description": ""
+  },
+  {
+    "name": "Vitest",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "description": "Тестовый фреймворк"
+  },
+  {
+    "name": "Nginx",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "description": ""
+  },
+  {
+    "name": "npm",
+    "ring": "adopt",
+    "quadrant": "infrastructure",
+    "description": ""
+  },
+  {
+    "name": "yarn",
+    "ring": "adopt",
+    "quadrant": "infrastructure",
+    "description": ""
+  },
+  {
+    "name": "vite",
+    "ring": "adopt",
+    "quadrant": "infrastructure",
+    "description": ""
+  },
+  {
+    "name": "sentry",
+    "ring": "adopt",
+    "quadrant": "infrastructure",
+    "description": "Используем для мониторинга ошибок"
+  },
+  {
+    "name": "eslint",
+    "ring": "adopt",
+    "quadrant": "infrastructure",
+    "description": ""
+  },
+  {
+    "name": "@astral/eslint-config-react-ts",
+    "ring": "adopt",
+    "quadrant": "infrastructure",
+    "description": "Единый eslint конфиг"
+  },
+  {
+    "name": "stylelint",
+    "ring": "adopt",
+    "quadrant": "infrastructure",
+    "description": ""
+  },
+  {
+    "name": "@astral/stylelint-config-styled",
+    "ring": "adopt",
+    "quadrant": "infrastructure",
+    "description": "Единый stylelint конфиг"
+  },
+  {
+    "name": "husky",
+    "ring": "adopt",
+    "quadrant": "infrastructure",
+    "description": ""
+  },
+  {
+    "name": "lint-staged",
+    "ring": "adopt",
+    "quadrant": "infrastructure",
+    "description": ""
+  },
+  {
+    "name": "prettier",
+    "ring": "adopt",
+    "quadrant": "infrastructure",
+    "description": ""
+  },
+  {
+    "name": "@astral/prettier-config",
+    "ring": "adopt",
+    "quadrant": "infrastructure",
+    "description": "Единый prettier конфиг"
+  },
+  {
+    "name": "Private npm registry (Nexus)",
+    "ring": "adopt",
+    "quadrant": "infrastructure",
+    "description": "Для внутренних пакетов используем приватный npm registry"
+  },
+  {
+    "name": "Яндекс.Метрика",
+    "ring": "adopt",
+    "quadrant": "infrastructure",
+    "description": "Для сбора аналитики. Есть <a target=\"_blank\" href=\"https://www.npmjs.com/package/@astral/yandex-metrika\">готовый сервис</a> для работы с метрикой"
+  },
+  {
+    "name": "cspell",
+    "ring": "trial",
+    "quadrant": "infrastructure",
+    "description": "Поиск опечаток в коде"
+  },
+  {
+    "name": "Azure DevOps",
+    "ring": "adopt",
+    "quadrant": "infrastructure",
+    "description": ""
+  },
+  {
+    "name": "Figma",
+    "ring": "adopt",
+    "quadrant": "infrastructure",
+    "description": ""
+  },
+  {
+    "name": "Техретро",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "description": "Итерационные ретроспективные встречи для фронтендеров"
+  },
+  {
+    "name": "Cross review",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "description": ""
+  },
+  {
+    "name": "One to one встречи",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "description": "Для каждого сотрудника проводятся итерационные one to one встречи"
+  },
+  {
+    "name": "Astral Architecture Guide",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "description": "Единый архитектурный подход <a target=\"_blank\" href=\"https://industrious-search-cdf.notion.site/Astral-Frontend-Architecture-Guide-cbb7ccaa69384c65aec35292a5c13e2a\">Astral Architecture Guide</a>"
+  },
+  {
+    "name": "Astral Unit Testing Guide",
+    "ring": "trial",
+    "quadrant": "techniques",
+    "description": "Единый подход к unit-тестированию <a target=\"_blank\" href=\"https://industrious-search-cdf.notion.site/Astral-Frontend-Unit-Testing-Guide-71120289ed89424e912ebe7fa8b7e39b\">Astral Unit Testing Guide</a>"
+  },
+  {
+    "name": "Style guide",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "description": "Единый <a target=\"_blank\" href=\"https://kaluga-astral.github.io/style-guide/\">Style guide</a>"
+  },
+  {
+    "name": "Тех. радар",
+    "ring": "assess",
+    "quadrant": "techniques",
+    "description": "Процесс поддержки тех. радара позволяет контролировать стэк и инженерные практики команды"
+  },
+  {
+    "name": "Единые стандарты работы с тех. долгом",
+    "ring": "trial",
+    "quadrant": "techniques",
+    "description": "<a target=\"_blank\" href=\"https://track.astral.ru/soft/wiki/pages/viewpage.action?pageId=3849335546\">Стандарты</a> позволяют держать под контролем тех. долг продукта"
+  },
+  {
+    "name": "Unit-тестирование",
+    "ring": "trial",
+    "quadrant": "techniques",
+    "description": "Guide по тестированию Astral Unit Testing Guide"
+  },
+  {
+    "name": "OpenID Connect",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "description": "Используется единая система авторизации"
+  },
+  {
+    "name": "Система менторинга",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "description": "Для каждого фронтендера есть ментор и индивидуальный план развития"
+  },
+  {
+    "name": "Real-time",
+    "ring": "assess",
+    "quadrant": "techniques",
+    "description": ""
+  },
+  {
+    "name": "Ubiquitous Language",
+    "ring": "trial",
+    "quadrant": "techniques",
+    "description": "Внедряем в команду единый язык по предметной области"
+  },
+  {
+    "name": "Event storming",
+    "ring": "trial",
+    "quadrant": "techniques",
+    "description": "Внедряем в команду штурм событий для домена предметной области"
+  },
+  {
+    "name": "Release train",
+    "ring": "trial",
+    "quadrant": "techniques",
+    "description": "Думаем об внедрение Release train для ускорения поставок"
+  },
+  {
+    "name": "GitFlow с двумя жизненными циклами задач",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "description": "Используем два пути движения задач (work/feature), по одному пути идут долгие задачи, по второму быстрые задачи"
+  }
+]
