@@ -354,8 +354,20 @@
     "description": "Отказываемся в пользу Mobx"
   },
   {
-    "name": "Typescript",
+    "name": "Typescript 5.x",
     "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "description": ""
+  },
+  {
+    "name": "Typescript 5.6",
+    "ring": "trial",
+    "quadrant": "languages & frameworks",
+    "description": ""
+  },
+  {
+    "name": "Typescript 4.x.x",
+    "ring": "hold",
     "quadrant": "languages & frameworks",
     "description": ""
   },

@@ -287,8 +287,14 @@
     "description": ""
   },
   {
-    "name": "Typescript",
-    "ring": "adopt",
+    "name": "Typescript 5.6",
+    "ring": "assess",
+    "quadrant": "languages & frameworks",
+    "description": ""
+  },
+  {
+    "name": "Typescript 4.x.x",
+    "ring": "hold",
     "quadrant": "languages & frameworks",
     "description": ""
   },
