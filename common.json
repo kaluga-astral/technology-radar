@@ -354,8 +354,14 @@
     "description": "Отказываемся в пользу Mobx"
   },
   {
-    "name": "Typescript",
+    "name": "Typescript 5",
     "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "description": ""
+  },
+  {
+    "name": "Typescript 4",
+    "ring": "hold",
     "quadrant": "languages & frameworks",
     "description": ""
   },

@@ -287,8 +287,14 @@
     "description": ""
   },
   {
-    "name": "Typescript",
-    "ring": "adopt",
+    "name": "Typescript 5",
+    "ring": "assess",
+    "quadrant": "languages & frameworks",
+    "description": ""
+  },
+  {
+    "name": "Typescript 4",
+    "ring": "hold",
     "quadrant": "languages & frameworks",
     "description": ""
   },
